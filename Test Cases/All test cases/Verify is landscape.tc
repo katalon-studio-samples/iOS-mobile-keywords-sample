@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Verify is landscape</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d1e4519-487d-4901-a3cd-9929206b8f16</testCaseGuid>
+</TestCaseEntity>

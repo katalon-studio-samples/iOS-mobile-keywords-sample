@@ -1,0 +1,132 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 62275
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/cw/hw6dhd7x1xn_vcx0twkyl769lk3hsp/T//Katalon/Appium/Temp1631090106740
+[35m[Appium][39m   chromedriverPort: 62276
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 62276
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62275
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPad/SwiftRadio-simulator-iPad8th-ios14.5.app","noReset":true,"deviceName":"iPad (8th generation)","fullReset":false,"wdaLocalPort":62301,"newCommandTimeout":1800,"realDeviceLogger":"/Users/loantran/Documents/Katalon/Tools/8.2.0/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"14.5","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS","udid":"121E4E3B-2570-458D-AF96-026A19A0D042"},"capabilities":{"firstMatch":[{"appium:app":"/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPad/SwiftRadio-simulator-iPad8th-ios14.5.app","appium:automationName":"XCUITest","appium:deviceName":"iPad (8th generation)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"14.5","realDeviceLogger":"/Users/loantran/Documents/Katalon/Tools/8.2.0/Katalon Studio.app/Contents/Eclipse/configuration/resou...[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: b3f5a778-65a0-40c7-aea8-03287ee3cd36
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid '121E4E3B-2570-458D-AF96-026A19A0D042'
+[35m[XCUITest][39m Determining device to run tests on: udid: '121E4E3B-2570-458D-AF96-026A19A0D042', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPad/SwiftRadio-simulator-iPad8th-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID '121E4E3B-2570-458D-AF96-026A19A0D042' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device 121E4E3B-2570-458D-AF96-026A19A0D042 on local port 62301
+[35m[DevCon Factory][39m Successfully requested the connection for 121E4E3B-2570-458D-AF96-026A19A0D042:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WebDriverAgent][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m WebDriverAgent does not need a cleanup. The sources are up to date (1630299194577 >= 1630299194577)
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:62301
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session b3f5a778-65a0-40c7-aea8-03287ee3cd36 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m39529 ms - 818[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36 [39m[32m200[39m [90m583 ms - 766[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36 [39m[32m200[39m [90m1 ms - 766[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/execute/sync [39m[32m200[39m [90m910 ms - 9235[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/screenshot [39m[32m200[39m [90m241 ms - 1482144[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/execute/sync [39m[32m200[39m [90m805 ms - 9235[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/screenshot [39m[32m200[39m [90m210 ms - 1482144[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/execute/sync [39m[32m200[39m [90m798 ms - 9235[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/screenshot [39m[32m200[39m [90m207 ms - 1482144[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/execute/sync [39m[32m200[39m [90m882 ms - 9235[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36/screenshot [39m[32m200[39m [90m248 ms - 1482144[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session b3f5a778-65a0-40c7-aea8-03287ee3cd36 from our master session list
+[35m[DevCon Factory][39m Releasing connections for 121E4E3B-2570-458D-AF96-026A19A0D042 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["121E4E3B-2570-458D-AF96-026A19A0D042:62301"]
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/b3f5a778-65a0-40c7-aea8-03287ee3cd36 [39m[32m200[39m [90m1055 ms - 14[39m
+[35m[HTTP][39m [90m[39m

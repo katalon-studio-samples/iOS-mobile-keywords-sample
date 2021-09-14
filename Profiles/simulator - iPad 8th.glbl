@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>simulator - iPad 8th</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Apps/iOS/DragAndDrop-simulator-iPad8th-ios14.5.app'</initValue>
+      <name>appsPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.alfianlosari.DragAndDrop'</initValue>
+      <name>dragAndDropAppsBundleId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'14.5'</initValue>
+      <name>dragAndDropAppsOSVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'810'</initValue>
+      <name>dragAndDropAppsDeviceWidth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1080'</initValue>
+      <name>dragAndDropAppsDeviceHeight</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>isExistingDragAndDropAppsStarted</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>isSimulator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>isIpadSimulator</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

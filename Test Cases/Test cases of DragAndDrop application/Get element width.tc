@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Get element width</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1d43c92-15bb-46df-ad05-7a683f27061e</testCaseGuid>
+</TestCaseEntity>

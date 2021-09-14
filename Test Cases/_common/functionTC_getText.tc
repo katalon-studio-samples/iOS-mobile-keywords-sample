@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>functionTC_getText</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d00c0f93-2ef3-4688-beb8-54701937b95c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>099285cd-840e-45e0-b908-7ac8a96895b7</id>
+      <masked>false</masked>
+      <name>object</name>
+   </variable>
+</TestCaseEntity>

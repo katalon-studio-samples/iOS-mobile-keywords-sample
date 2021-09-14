@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://github.com/analogcode/Swift-Radio-Pro</description>
+   <name>Tap on image - SwiftRadio</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7502fee8-e5aa-4d4b-a576-a41c17b88231</testCaseGuid>
+   <variable>
+      <defaultValue>'/Screenshots/Photo For Keyword Testing/TheRock.png'</defaultValue>
+      <description></description>
+      <id>a2d4c754-0154-448f-86be-f49ed080dbce</id>
+      <masked>false</masked>
+      <name>imageShortPath</name>
+   </variable>
+</TestCaseEntity>

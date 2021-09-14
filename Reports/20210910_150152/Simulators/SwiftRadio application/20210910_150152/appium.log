@@ -1,0 +1,1483 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 60549
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/cw/hw6dhd7x1xn_vcx0twkyl769lk3hsp/T//Katalon/Appium/Temp1631260918910
+[35m[Appium][39m   webkitDebugProxyPort: 60545
+[35m[Appium][39m   chromedriverPort: 60550
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 60550
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60549
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app","noReset":true,"deviceName":"iPhone 12","fullReset":false,"platform":"IOS","wdaLocalPort":60544,"newCommandTimeout":1800,"realDeviceLogger":"/Users/loantran/Documents/Katalon/Tools/7.9.1/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"14.5","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS"},"capabilities":{"firstMatch":[{"appium:app":"/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app","appium:automationName":"XCUITest","appium:deviceName":"iPhone 12","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"IOS","platformName":"ios","appium:platformVersion":"14.5","realDeviceLogger":"/Users/loantran/Documents/Katalon/Tools/7.9.1/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","app...[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: d8c24bb9-0527-4b0b-933f-be95eb523359
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:60544
+[35m[WebDriverAgent][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m WebDriverAgent does not need a cleanup. The sources are up to date (1630299194577 >= 1630299194577)
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:60544
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:60544
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:60544
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:60544
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:60544
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:60544
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:60544
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session d8c24bb9-0527-4b0b-933f-be95eb523359 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m15948 ms - 809[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359 [39m[32m200[39m [90m251 ms - 777[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359 [39m[32m200[39m [90m1 ms - 777[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/screenshot [39m[32m200[39m [90m235 ms - 1565472[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m72 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/screenshot [39m[32m200[39m [90m354 ms - 1565472[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: viewportScreenshot","args":[]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/execute/sync [39m[32m200[39m [90m951 ms - 1158116[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m59 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Radio 1190' and @name = 'Radio 1190']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m744 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-D0F2-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-D0F2-000000000000/location [39m[32m200[39m [90m53 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"30000000-0000-0000-D0F2-000000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/touch/perform [39m[32m200[39m [90m319 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m151 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m1047 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m340 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m399 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m388 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m383 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m319 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m512 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m421 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m342 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m340 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m349 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m330 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m339 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m322 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m321 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m425 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m366 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m403 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m378 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m381 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m366 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m368 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m428 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m423 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m386 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m318 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m389 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m417 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m330 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m463 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m366 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m309 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m306 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m294 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m410 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m359 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m372 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m382 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m368 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m362 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m339 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m367 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m353 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m326 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m342 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m336 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m300 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m286 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m319 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m292 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m300 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m345 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m313 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m291 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m447 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m301 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m309 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m308 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m295 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m291 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m388 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m331 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m318 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m390 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m339 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m346 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m393 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m355 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m353 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m377 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m351 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m370 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m321 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m377 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m353 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m349 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m334 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m392 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m354 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m327 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m394 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m339 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m361 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m355 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m354 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m370 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m363 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m337 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m383 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m354 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m336 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m299 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m372 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m359 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m374 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m349 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m363 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m363 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m360 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m409 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m355 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m431 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m325 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m307 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m308 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m363 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m375 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m297 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m403 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m330 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m314 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m299 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m297 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m341 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m374 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m336 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m401 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m330 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m363 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m364 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m371 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m325 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m374 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m387 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m348 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m329 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m359 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m362 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m352 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m391 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m359 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m298 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m316 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m316 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m292 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m409 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m330 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m331 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m344 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m299 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m399 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m406 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m325 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m290 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m310 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m311 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m360 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m395 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m306 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m296 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m311 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m325 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m319 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m319 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m391 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m331 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m371 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m317 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m299 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m327 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m310 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m288 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m303 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m343 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m300 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m366 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m435 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m384 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m371 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m343 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m410 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m441 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m498 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m477 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m408 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m453 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m481 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m434 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m435 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m410 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m369 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m528 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m487 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m441 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m390 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m339 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m349 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m353 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m324 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m452 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m368 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m340 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m396 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m388 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m294 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m297 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m311 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m399 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m318 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m349 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m365 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m408 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m295 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m375 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m298 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m372 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m345 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m532 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/4E000000-0000-0000-D0F2-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/4E000000-0000-0000-D0F2-000000000000/location [39m[32m200[39m [90m43 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m63 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m649 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/4E000000-0000-0000-D0F2-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/4E000000-0000-0000-D0F2-000000000000/location [39m[32m200[39m [90m36 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/4E000000-0000-0000-D0F2-000000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d8c24bb9)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 552FF3BA-1D60-4F50-867E-3F53AD3CFCEF with d8c24bb9-0527-4b0b-933f-be95eb523359
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/4E000000-0000-0000-D0F2-000000000000/displayed [39m[32m200[39m [90m44 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: d38f08f5-d418-4020-b670-9123cad57be2
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:60544/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 60544 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:60544/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset [39m[32m200[39m [90m5933 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/settings[39m
+[35m[HTTP][39m [90m{"settings":{"imageMatchThreshold":0.2}}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/settings [39m[32m200[39m [90m19 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"-image","value":"iVBORw0KGgoAAAANSUhEUgAAALgAAABuCAYAAACUVNn1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAaGVYSWZNTQAqAAAACAAEAQYAAwAAAAEAAgAAARIAAwAAAAEAAQAAASgAAwAAAAEAAgAAh2kABAAAAAEAAAA+AAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAAC4oAMABAAAAAEAAABuAAAAAIJ3HOsAAALkaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogIC...[39m
+[35m[BaseDriver][39m Finding image element with match threshold 0.2
+[35m[BaseDriver][39m Verifying screenshot size and aspect ratio
+[35m[BaseDriver][39m Screenshot aspect ratio '0.46208530805687204' (1170x2532) matched screen aspect ratio '0.46208530805687204' (390x844)
+[35m[BaseDriver][39m Scaling screenshot from 1170x2532 to match screen at 390x844
+[35m[BaseDriver][39m Image template matched: {"x":0,"y":157,"width":184,"height":110}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m1524 ms - 181[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-a2adf5dd-3d04-43c8-9f0e-2dd4e93fcdb2/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-a2adf5dd-3d04-43c8-9f0e-2dd4e93fcdb2/location [39m[32m200[39m [90m9 ms - 25[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-a2adf5dd-3d04-43c8-9f0e-2dd4e93fcdb2/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-a2adf5dd-3d04-43c8-9f0e-2dd4e93fcdb2/location [39m[32m200[39m [90m9 ms - 25[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":0,"y":157}},{"action":"wait","options":{"ms":50}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/touch/perform [39m[32m200[39m [90m301 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m228 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'btn play' and @name = 'btn play']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m617 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/49000000-0000-0000-06F3-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/49000000-0000-0000-06F3-000000000000/location [39m[32m200[39m [90m36 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: dc7f11b8-b836-4ed0-93ad-a055d3e116cf
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:60544/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 60544 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:60544/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset [39m[32m200[39m [90m5767 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m70 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Radio 1190' and @name = 'Radio 1190']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m522 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-34F3-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-34F3-000000000000/location [39m[32m200[39m [90m33 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"30000000-0000-0000-34F3-000000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/touch/perform [39m[32m200[39m [90m815 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m84 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Error Playing' and @name = 'Error Playing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m584 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 57dc31f3-300b-4a65-aecf-675f2f46f626
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:60544/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 60544 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:60544/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset [39m[32m200[39m [90m5816 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m61 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Radio 1190' and @name = 'Radio 1190']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m579 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-62F3-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-62F3-000000000000/location [39m[32m200[39m [90m43 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-62F3-000000000000/attribute/name[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-62F3-000000000000/attribute/name [39m[32m200[39m [90m42 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: d73f63a6-1f47-4d01-8626-0318c28f9e79
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:60544/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 60544 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:60544/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset [39m[32m200[39m [90m5380 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/window/rect [39m[32m200[39m [90m62 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Radio 1190' and @name = 'Radio 1190']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m473 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-92F3-000000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-92F3-000000000000/location [39m[32m200[39m [90m35 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-92F3-000000000000/attribute/name[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/30000000-0000-0000-92F3-000000000000/attribute/name [39m[32m200[39m [90m37 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: f661d4d8-9022-43de-8e93-ff0917810bcb
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:60544/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 60544 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:60544/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset [39m[32m200[39m [90m5279 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/settings[39m
+[35m[HTTP][39m [90m{"settings":{"imageMatchThreshold":0.2}}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/settings [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"-image","value":"iVBORw0KGgoAAAANSUhEUgAAALgAAABuCAYAAACUVNn1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAaGVYSWZNTQAqAAAACAAEAQYAAwAAAAEAAgAAARIAAwAAAAEAAQAAASgAAwAAAAEAAgAAh2kABAAAAAEAAAA+AAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAAC4oAMABAAAAAEAAABuAAAAAIJ3HOsAAALkaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogIC...[39m
+[35m[BaseDriver][39m Finding image element with match threshold 0.2
+[35m[BaseDriver][39m Verifying screenshot size and aspect ratio
+[35m[BaseDriver][39m Screenshot aspect ratio '0.46208530805687204' (1170x2532) matched screen aspect ratio '0.46208530805687204' (390x844)
+[35m[BaseDriver][39m Scaling screenshot from 1170x2532 to match screen at 390x844
+[35m[BaseDriver][39m Image template matched: {"x":0,"y":157,"width":184,"height":110}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m925 ms - 181[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-138d246a-5775-44fb-9f30-7879a87db7f6/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-138d246a-5775-44fb-9f30-7879a87db7f6/location [39m[32m200[39m [90m1 ms - 25[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-138d246a-5775-44fb-9f30-7879a87db7f6/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-138d246a-5775-44fb-9f30-7879a87db7f6/location [39m[32m200[39m [90m1 ms - 25[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 7afe527f-9dde-419a-b33e-9a45c5796594
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:60544/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 60544 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:60544/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset [39m[32m200[39m [90m4971 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/settings[39m
+[35m[HTTP][39m [90m{"settings":{"imageMatchThreshold":0.2}}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/settings [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element[39m
+[35m[HTTP][39m [90m{"using":"-image","value":"iVBORw0KGgoAAAANSUhEUgAAALgAAABuCAYAAACUVNn1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAaGVYSWZNTQAqAAAACAAEAQYAAwAAAAEAAgAAARIAAwAAAAEAAQAAASgAAwAAAAEAAgAAh2kABAAAAAEAAAA+AAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAAC4oAMABAAAAAEAAABuAAAAAIJ3HOsAAALkaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogIC...[39m
+[35m[BaseDriver][39m Finding image element with match threshold 0.2
+[35m[BaseDriver][39m Verifying screenshot size and aspect ratio
+[35m[BaseDriver][39m Screenshot aspect ratio '0.46208530805687204' (1170x2532) matched screen aspect ratio '0.46208530805687204' (390x844)
+[35m[BaseDriver][39m Scaling screenshot from 1170x2532 to match screen at 390x844
+[35m[BaseDriver][39m Image template matched: {"x":0,"y":160,"width":184,"height":110}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element [39m[32m200[39m [90m694 ms - 179[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-e638e6e9-221b-447b-828e-4e6c38919190/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-e638e6e9-221b-447b-828e-4e6c38919190/location [39m[32m200[39m [90m1 ms - 25[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-e638e6e9-221b-447b-828e-4e6c38919190/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/element/appium-image-element-e638e6e9-221b-447b-828e-4e6c38919190/location [39m[32m200[39m [90m1 ms - 25[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 79fb6bd2-c0e3-4645-8a81-7f7f614068f3
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:60544/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 60544 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:60544/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset [39m[32m200[39m [90m5019 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/settings[39m
+[35m[HTTP][39m [90m{"settings":{"imageMatchThreshold":0.2}}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/settings [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements[39m
+[35m[HTTP][39m [90m{"using":"-image","value":"iVBORw0KGgoAAAANSUhEUgAAALgAAABuCAYAAACUVNn1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAaGVYSWZNTQAqAAAACAAEAQYAAwAAAAEAAgAAARIAAwAAAAEAAQAAASgAAwAAAAEAAgAAh2kABAAAAAEAAAA+AAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAAC4oAMABAAAAAEAAABuAAAAAIJ3HOsAAALkaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogIC...[39m
+[35m[BaseDriver][39m Finding image element with match threshold 0.2
+[35m[BaseDriver][39m Verifying screenshot size and aspect ratio
+[35m[BaseDriver][39m Screenshot aspect ratio '0.46208530805687204' (1170x2532) matched screen aspect ratio '0.46208530805687204' (390x844)
+[35m[BaseDriver][39m Scaling screenshot from 1170x2532 to match screen at 390x844
+[35m[BaseDriver][39m Image template matched: {"x":0,"y":157,"width":184,"height":110}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/elements [39m[32m200[39m [90m702 ms - 181[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 6017ac80-0192-4cdc-8b19-6ab51f5f51d6
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/SwiftRadio-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 60544
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:60544
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:60544/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 60544 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:60544/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359/appium/app/reset [39m[32m200[39m [90m5112 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session d8c24bb9-0527-4b0b-933f-be95eb523359 from our master session list
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:60544"]
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/d8c24bb9-0527-4b0b-933f-be95eb523359 [39m[32m200[39m [90m1033 ms - 14[39m
+[35m[HTTP][39m [90m[39m

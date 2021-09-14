@@ -1,0 +1,900 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 64348
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/cw/hw6dhd7x1xn_vcx0twkyl769lk3hsp/T//Katalon/Appium/Temp1631262565912
+[35m[Appium][39m   webkitDebugProxyPort: 64344
+[35m[Appium][39m   chromedriverPort: 64350
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 64350
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:64348
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app","noReset":true,"deviceName":"iPhone 12","fullReset":false,"platform":"IOS","wdaLocalPort":64343,"newCommandTimeout":1800,"realDeviceLogger":"/Users/loantran/Documents/Katalon/Tools/7.9.1/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"14.5","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS"},"capabilities":{"firstMatch":[{"appium:app":"/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app","appium:automationName":"XCUITest","appium:deviceName":"iPhone 12","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"IOS","platformName":"ios","appium:platformVersion":"14.5","realDeviceLogger":"/Users/loantran/Documents/Katalon/Tools/7.9.1/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appiu...[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: b5740d69-49bf-4f00-9a64-accb604604b2
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WebDriverAgent][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m WebDriverAgent does not need a cleanup. The sources are up to date (1630299194577 >= 1630299194577)
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:64343
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session b5740d69-49bf-4f00-9a64-accb604604b2 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m97698 ms - 808[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2 [39m[32m200[39m [90m337 ms - 765[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2 [39m[32m200[39m [90m5 ms - 765[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m10 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/screenshot [39m[32m200[39m [90m182 ms - 782544[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m109 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/screenshot [39m[32m200[39m [90m148 ms - 782544[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: viewportScreenshot","args":[]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/execute/sync [39m[32m200[39m [90m981 ms - 492064[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m84 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'add' and @name = 'add']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m881 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-DE02-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-DE02-010000000000/location [39m[32m200[39m [90m49 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"longPress","options":{"element":"0F000000-0000-0000-DE02-010000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m989 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m311 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Save' and @name = 'Save']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m2210 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/9A000000-0000-0000-DE02-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/9A000000-0000-0000-DE02-010000000000/location [39m[32m200[39m [90m85 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: aa592e9b-59d0-4ca2-a0a1-71fdd9f42f05
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:64343/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 64343 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:64343/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset [39m[32m200[39m [90m5620 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m55 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'add' and @name = 'add']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m856 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-0303-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-0303-010000000000/location [39m[32m200[39m [90m54 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"longPress","options":{"element":"0F000000-0000-0000-0303-010000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m941 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m337 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m802 ms - 395[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/location [39m[32m200[39m [90m71 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/clear[39m
+[35m[HTTP][39m [90m{"id":"C6000000-0000-0000-0303-010000000000"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/clear [39m[32m200[39m [90m1751 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/value[39m
+[35m[HTTP][39m [90m{"id":"C6000000-0000-0000-0303-010000000000","text":"QA katalon","value":["Q","A"," ","k","a","t","a","l","o","n"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/value [39m[32m200[39m [90m404 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m124 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m1034 ms - 395[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/location [39m[32m200[39m [90m95 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b5740d69)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 2A7924AF-1A84-4F89-A161-398A2441C628 with b5740d69-49bf-4f00-9a64-accb604604b2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-0303-010000000000/text [39m[32m200[39m [90m93 ms - 73[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: d6286723-44bc-4705-b131-a7ebe00e850d
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:64343/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 64343 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:64343/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset [39m[32m200[39m [90m5208 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m78 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'add' and @name = 'add']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m651 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-3203-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-3203-010000000000/location [39m[32m200[39m [90m45 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"longPress","options":{"element":"0F000000-0000-0000-3203-010000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m871 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m131 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m802 ms - 395[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-3203-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/C6000000-0000-0000-3203-010000000000/location [39m[32m200[39m [90m67 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"C6000000-0000-0000-3203-010000000000"}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m489 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: e3594394-dc7d-4d39-880b-9d8bb14383e8
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:64343/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 64343 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:64343/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset [39m[32m200[39m [90m5312 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m59 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'add' and @name = 'add']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m750 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-6203-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-6203-010000000000/location [39m[32m200[39m [90m42 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-6203-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-6203-010000000000/location [39m[32m200[39m [90m44 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m76 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'add' and @name = 'add']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m715 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-6203-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-6203-010000000000/location [39m[32m200[39m [90m42 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-6203-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0F000000-0000-0000-6203-010000000000/location [39m[32m200[39m [90m43 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"longPress","options":{"x":333,"duration":2000,"y":766}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m2303 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m327 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Save' and @name = 'Save']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m1682 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/97000000-0000-0000-6203-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/97000000-0000-0000-6203-010000000000/location [39m[32m200[39m [90m88 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 940006f2-4366-4621-94a4-33c708d7134b
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:64343/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 64343 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:64343/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset [39m[32m200[39m [90m5012 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 8.13.2
+[35m[RemoteDebugger][39m Setting communication protocol: using Target-based communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts [39m[32m200[39m [90m70 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":50,"y":0}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":50,"y":300}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m704 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts [39m[32m200[39m [90m14 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m147 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":50,"y":843}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":50,"y":1}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m683 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: c462aa49-6f6c-4784-ad3b-1bf80ca18dc8
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:64343/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 64343 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:64343/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset [39m[32m200[39m [90m5067 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 8.13.2
+[35m[RemoteDebugger][39m Setting communication protocol: using Target-based communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts [39m[32m200[39m [90m75 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":50,"y":0}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":50,"y":300}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m663 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts [39m[32m200[39m [90m18 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m146 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":50,"y":843}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":50,"y":1}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m765 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m65 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Your GPA' and @name = 'Your GPA']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m989 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0C000000-0000-0000-C803-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0C000000-0000-0000-C803-010000000000/location [39m[32m200[39m [90m49 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0C000000-0000-0000-C803-010000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b5740d69)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 8CE60D7F-5293-451C-85A8-DFD51B4E1A35 with b5740d69-49bf-4f00-9a64-accb604604b2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/0C000000-0000-0000-C803-010000000000/displayed [39m[32m200[39m [90m81 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 439d7694-91aa-472c-8c48-07734ac88099
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:64343/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 64343 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:64343/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset [39m[32m200[39m [90m5089 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 8.13.2
+[35m[RemoteDebugger][39m Setting communication protocol: using Target-based communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts [39m[32m200[39m [90m62 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@label, 'Test 6') or contains(@text, 'Test 6')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m578 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile:scroll","args":[{"toVisible":"Test 6","element":"1D000000-0000-0000-0004-010000000000"}]}[39m
+[35m[XCUITest][39m Proxying to WDA with an unknown route: POST /wda/element/1D000000-0000-0000-0004-010000000000/scroll
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/execute/sync [39m[32m200[39m [90m3097 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m77 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Test 6, 1.00' and @name = 'Test 6, 1.00']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m818 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/73000000-0000-0000-0004-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/73000000-0000-0000-0004-010000000000/location [39m[32m200[39m [90m42 ms - 26[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/73000000-0000-0000-0004-010000000000/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b5740d69)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId A3B2C25F-E574-4456-9947-AA383886A1AB with b5740d69-49bf-4f00-9a64-accb604604b2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/73000000-0000-0000-0004-010000000000/displayed [39m[32m200[39m [90m70 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: d77b5125-be5c-4d03-b463-7a146da17ee0
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:64343/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 64343 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:64343/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset [39m[32m200[39m [90m4903 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[RemoteDebugger][39m Remote Debugger version 8.13.2
+[35m[RemoteDebugger][39m Setting communication protocol: using Target-based communication
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/contexts [39m[32m200[39m [90m58 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":150,"y":400}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":50,"y":400}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/touch/perform [39m[32m200[39m [90m1771 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/window/rect [39m[32m200[39m [90m67 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'Delete' and @name = 'Delete']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/elements [39m[32m200[39m [90m740 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/64000000-0000-0000-3004-010000000000/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/64000000-0000-0000-3004-010000000000/location [39m[32m200[39m [90m44 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/64000000-0000-0000-3004-010000000000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b5740d69)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5C07168F-0FB2-4B94-81DF-F7D417E6C383 with b5740d69-49bf-4f00-9a64-accb604604b2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/element/64000000-0000-0000-3004-010000000000/text [39m[32m200[39m [90m41 ms - 69[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   fullReset
+[35m[BaseDriver][39m   newCommandTimeout
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   waitForAppScript
+[35m[BaseDriver][39m   wdaLocalPort
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 3cc96733-c028-4fe5-9b68-225914caa3c8
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'B78A79C3-87FF-4780-856F-33BBE8954E1D'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'B78A79C3-87FF-4780-856F-33BBE8954E1D', real device: false
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/GradeCalc-simulator-iPhone12-ios14.5.app'
+[35m[WebDriverAgent][39m Using WDA path: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/loantran/.nvm/versions/node/v14.17.5/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up simulator
+[35m[iOSSim][39m Both Simulator with UDID 'B78A79C3-87FF-4780-856F-33BBE8954E1D' and the UI client are currently running
+[35m[DevCon Factory][39m Requesting connection for device B78A79C3-87FF-4780-856F-33BBE8954E1D on local port 64343
+[35m[DevCon Factory][39m Successfully requested the connection for B78A79C3-87FF-4780-856F-33BBE8954E1D:64343
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:64343/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 64343 if this is an undesired behavior.
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:64343/'
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2/appium/app/reset [39m[32m200[39m [90m5013 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session b5740d69-49bf-4f00-9a64-accb604604b2 from our master session list
+[35m[DevCon Factory][39m Releasing connections for B78A79C3-87FF-4780-856F-33BBE8954E1D device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["B78A79C3-87FF-4780-856F-33BBE8954E1D:64343"]
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/b5740d69-49bf-4f00-9a64-accb604604b2 [39m[32m200[39m [90m1055 ms - 14[39m
+[35m[HTTP][39m [90m[39m

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Verify element not have attribute</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36fd0021-c0df-4691-9148-3b8ad52710ae</testCaseGuid>
+</TestCaseEntity>

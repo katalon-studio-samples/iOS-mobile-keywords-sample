@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of GradeCalc apps: https://github.com/marlon360/grade-calc</description>
+   <name>Swipe - GradeCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf90682b-cbed-45b7-920a-51b45ff82bbc</testCaseGuid>
+</TestCaseEntity>

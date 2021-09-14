@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Switch to portrait</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da0090aa-562e-40ed-b2ea-c7ce6a71abd0</testCaseGuid>
+</TestCaseEntity>

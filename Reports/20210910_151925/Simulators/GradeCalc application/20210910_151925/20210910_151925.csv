@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GradeCalc application,,,,2021-09-10 15:19:29,2021-09-10 15:22:45,3m - 15.579s,PASSED
+,,,,,,,
+Test Cases/All test cases/Tap and hold - GradCalc,,Source code of GradeCalc apps: https://github.com/marlon360/grade-calc,,2021-09-10 15:21:08,2021-09-10 15:21:19,10.755s,PASSED
+"tapAndHold(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeButton - add""), 0, 0)",,,,2021-09-10 15:21:08,2021-09-10 15:21:10,2.124s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeButton - Save""), 0)",,,,2021-09-10 15:21:10,2021-09-10 15:21:13,2.707s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:21:13,2021-09-10 15:21:19,5.605s,PASSED
+,,,,,,,
+Test Cases/All test cases/Set encrypted text - GradeCalc,,Source code of GradeCalc apps: https://github.com/marlon360/grade-calc,,2021-09-10 15:21:19,2021-09-10 15:21:33,14.837s,PASSED
+"tapAndHold(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeButton - add""), 0, 0)",,,,2021-09-10 15:21:19,2021-09-10 15:21:21,2.057s,PASSED
+"text = ""QA katalon""",,,,2021-09-10 15:21:21,2021-09-10 15:21:21,0.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title""), ""D4BYJaDQ12bjjzKZGpBQ2w=="", 0)",,,,2021-09-10 15:21:21,2021-09-10 15:21:26,4.681s,PASSED
+"expectedText = getText(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title""), 0)",,,,2021-09-10 15:21:26,2021-09-10 15:21:28,1.712s,PASSED
+"verifyMatch(expectedText, text, false)",,,,2021-09-10 15:21:28,2021-09-10 15:21:28,0.029s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:21:28,2021-09-10 15:21:33,5.712s,PASSED
+,,,,,,,
+Test Cases/All test cases/Hide keyboard - GradeCalc,,Source code of GradeCalc apps: https://github.com/marlon360/grade-calc,,2021-09-10 15:21:33,2021-09-10 15:21:51,17.928s,PASSED
+"tapAndHold(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeButton - add""), 0, 0)",,,,2021-09-10 15:21:34,2021-09-10 15:21:36,2.068s,PASSED
+"tap(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title""), 0)",,,,2021-09-10 15:21:36,2021-09-10 15:21:38,2.553s,PASSED
+if (isIpadSimulator),,,,2021-09-10 15:21:38,2021-09-10 15:21:46,7.280s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:21:46,2021-09-10 15:21:51,5.629s,PASSED
+,,,,,,,
+Test Cases/All test cases/Tap and hold at position - GradCalc,,Source code of GradeCalc apps: https://github.com/marlon360/grade-calc,,2021-09-10 15:21:51,2021-09-10 15:22:05,13.955s,PASSED
+"elem = findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeButton - add"")",,,,2021-09-10 15:21:52,2021-09-10 15:21:52,0.107s,PASSED
+"x = getElementLeftPosition(elem, 0) + 30",,,,2021-09-10 15:21:52,2021-09-10 15:21:54,1.730s,PASSED
+"y = getElementTopPosition(elem, 0) + 30",,,,2021-09-10 15:21:54,2021-09-10 15:21:55,1.581s,PASSED
+"tapAndHoldAtPosition(x, y, 2)",,,,2021-09-10 15:21:55,2021-09-10 15:21:57,2.302s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeButton - Save""), 3)",,,,2021-09-10 15:21:57,2021-09-10 15:22:00,2.705s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:22:00,2021-09-10 15:22:05,5.082s,PASSED
+,,,,,,,
+Test Cases/All test cases/Open notification - GradeCalc,,Source code of GradeCalc apps: https://github.com/marlon360/grade-calc,,2021-09-10 15:22:05,2021-09-10 15:22:15,9.974s,PASSED
+openNotifications(),,,,2021-09-10 15:22:06,2021-09-10 15:22:07,0.908s,PASSED
+if (!(isSimulator)),,,,2021-09-10 15:22:07,2021-09-10 15:22:07,0.001s,PASSED
+closeNotifications(),,,,2021-09-10 15:22:07,2021-09-10 15:22:08,1.260s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:22:08,2021-09-10 15:22:15,7.347s,PASSED
+,,,,,,,
+Test Cases/All test cases/Close notification - GradeCalc,,Source code of GrageCalc apps: https://github.com/marlon360/grade-calc,,2021-09-10 15:22:15,2021-09-10 15:22:24,8.764s,PASSED
+openNotifications(),,,,2021-09-10 15:22:16,2021-09-10 15:22:17,0.875s,PASSED
+if (!(isIpadSimulator)),,,,2021-09-10 15:22:17,2021-09-10 15:22:17,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CradeCalcApps/XCUIElementTypeStaticText - Your GPA""), 3)",,,,2021-09-10 15:22:17,2021-09-10 15:22:19,1.778s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:22:19,2021-09-10 15:22:24,5.483s,PASSED
+,,,,,,,
+Test Cases/All test cases/Scroll to text - GradeCalc,,Source code of GradeCalc apps: https://github.com/marlon360/grade-calc,,2021-09-10 15:22:24,2021-09-10 15:22:36,11.907s,PASSED
+"scrollToText(""Test 6"")",,,,2021-09-10 15:22:24,2021-09-10 15:22:30,5.110s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CradeCalcApps/scroll to text/XCUIElementTypeButton - Test 6, 1.00""), 0)",,,,2021-09-10 15:22:30,2021-09-10 15:22:31,1.478s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:22:31,2021-09-10 15:22:36,4.953s,PASSED
+,,,,,,,
+Test Cases/All test cases/Swipe - GradeCalc,,Source code of GradeCalc apps: https://github.com/marlon360/grade-calc,,2021-09-10 15:22:36,2021-09-10 15:22:45,8.661s,PASSED
+"swipe(150, 400, 50, 400)",,,,2021-09-10 15:22:36,2021-09-10 15:22:38,1.851s,PASSED
+"txtDelete = getText(findTestObject(""Object Repository/CradeCalcApps/swipe/XCUIElementTypeStaticText - Delete""), 0)",,,,2021-09-10 15:22:38,2021-09-10 15:22:39,1.239s,PASSED
+"verifyMatch(txtDelete, ""Delete"", false)",,,,2021-09-10 15:22:39,2021-09-10 15:22:39,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:22:39,2021-09-10 15:22:45,5.302s,PASSED

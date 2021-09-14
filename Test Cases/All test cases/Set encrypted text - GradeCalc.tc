@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of GradeCalc apps: https://github.com/marlon360/grade-calc</description>
+   <name>Set encrypted text - GradeCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7c290bd-c976-48c3-bd27-c48ce4613af0</testCaseGuid>
+</TestCaseEntity>

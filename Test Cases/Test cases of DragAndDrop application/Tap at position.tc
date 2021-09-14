@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Tap at position</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1cfde822-aa9d-4496-8ecf-e48a7e80be2e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,225 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DragAndDrop application,,,,2021-09-10 15:45:15,2021-09-10 15:53:23,8m - 8.488s,FAILED
+,,,,,,,
+Test Cases/All test cases/Start Exsting Application,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:45:38,2021-09-10 15:46:00,22.797s,PASSED
+pressHome(),,,,2021-09-10 15:45:38,2021-09-10 15:45:38,0.216s,PASSED
+startExistingApplication(dragAndDropAppsBundleId),,,,2021-09-10 15:45:38,2021-09-10 15:45:54,15.691s,PASSED
+"verifyElementExist(findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add""), 0)",,,,2021-09-10 15:45:54,2021-09-10 15:45:55,1.507s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:45:55,2021-09-10 15:46:00,5.043s,PASSED
+,,,,,,,
+Test Cases/All test cases/Tap at position,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:46:00,2021-09-10 15:46:12,11.684s,PASSED
+"elem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"")",,The iOS apps is started from setupTestCase(),,2021-09-10 15:46:01,2021-09-10 15:46:01,0.046s,PASSED
+"x = getElementLeftPosition(elem, 5) + 3",,,,2021-09-10 15:46:01,2021-09-10 15:46:02,1.324s,PASSED
+"y = getElementTopPosition(elem, 5) - 3",,,,2021-09-10 15:46:02,2021-09-10 15:46:03,1.284s,PASSED
+"tapAtPosition(x, y)",,,,2021-09-10 15:46:03,2021-09-10 15:46:04,0.593s,PASSED
+"lblAddItem = findTestObject(""DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"")",,,,2021-09-10 15:46:04,2021-09-10 15:46:04,0.211s,PASSED
+"verifyElementExist(lblAddItem, 0)",,,,2021-09-10 15:46:04,2021-09-10 15:46:07,2.984s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:46:07,2021-09-10 15:46:12,4.956s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get device OS,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:46:12,2021-09-10 15:46:18,5.474s,PASSED
+deviceOS = getDeviceOS(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:46:12,2021-09-10 15:46:12,0.010s,PASSED
+"verifyMatch(deviceOS, ""iOS"", false)",,,,2021-09-10 15:46:12,2021-09-10 15:46:12,0.020s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:46:12,2021-09-10 15:46:18,5.213s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get device height,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:46:18,2021-09-10 15:46:23,5.611s,PASSED
+deviceHeight = getDeviceHeight(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:46:18,2021-09-10 15:46:18,0.236s,PASSED
+"verifyMatch(deviceHeight, dragAndDropAppsDeviceHeight, false)",,,,2021-09-10 15:46:18,2021-09-10 15:46:18,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:46:18,2021-09-10 15:46:23,5.048s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get current orientation,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:46:23,2021-09-10 15:46:29,5.396s,PASSED
+orientation = getCurrentOrientation(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:46:24,2021-09-10 15:46:24,0.145s,PASSED
+"verifyMatch(orientation, ""portrait"", false)",,,,2021-09-10 15:46:24,2021-09-10 15:46:24,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:46:24,2021-09-10 15:46:29,4.927s,PASSED
+,,,,,,,
+Test Cases/All test cases/Take screenshot,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:46:29,2021-09-10 15:46:35,5.897s,PASSED
+"uniqueString = toString().substring(0, 3)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:46:29,2021-09-10 15:46:29,0.010s,PASSED
+"expectedFilename = currentProjDir + ""/Screenshots/Appiumdriver/driver"" + uniqueString + "".png""",,take screenshot by appium driver and put the screenshot to /Screenshots/Appiumdriver,,2021-09-10 15:46:29,2021-09-10 15:46:29,0.000s,PASSED
+"webdriver.screenshot.TakeScreenshot.takeScreenshot(expectedFilename, STOP_ON_FAILURE)",,,,2021-09-10 15:46:29,2021-09-10 15:46:29,0.237s,PASSED
+"takeScreenshot(""Screenshots/Katalon/katalon"" + uniqueString + "".png"")",,take screenshot by Katalon keyword and put the screenshot to /Screenshots/Katalon,,2021-09-10 15:46:29,2021-09-10 15:46:29,0.306s,PASSED
+"actualFilename = currentProjDir + ""/Screenshots/Katalon/katalon"" + uniqueString + "".png""",,Compare two images taken by appium driver and katalon keyword,,2021-09-10 15:46:29,2021-09-10 15:46:29,0.000s,PASSED
+"katalon.verifyImage.ImageComparison.areMatched(expectedFilename, actualFilename, CONTINUE_ON_FAILURE)",,,,2021-09-10 15:46:29,2021-09-10 15:46:30,0.165s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:46:30,2021-09-10 15:46:35,4.906s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify element attribute,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:46:35,2021-09-10 15:46:43,8.301s,PASSED
+"btnAdd = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"")",,The iOS apps is started from setupTestCase(),,2021-09-10 15:46:35,2021-09-10 15:46:35,0.037s,PASSED
+try,,,,2021-09-10 15:46:35,2021-09-10 15:46:36,1.283s,PASSED
+try,,,,2021-09-10 15:46:36,2021-09-10 15:46:38,1.718s,FAILED
+catch (Exception e),,,,2021-09-10 15:46:38,2021-09-10 15:46:38,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:46:38,2021-09-10 15:46:43,5.012s,PASSED
+,,,,,,,
+Test Cases/All test cases/Run iOS app in background and wait,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:46:43,2021-09-10 15:46:56,13.540s,PASSED
+runIOSAppInBackgroundAndWait(7),,,,2021-09-10 15:46:43,2021-09-10 15:46:52,8.313s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:46:52,2021-09-10 15:46:56,4.862s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get element left position,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:46:56,2021-09-10 15:47:03,6.570s,PASSED
+"elemLeftPos = getElementLeftPosition(findTestObject(""DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration""), 5)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:46:57,2021-09-10 15:46:58,1.216s,PASSED
+"verifyMatch(elemLeftPos, ""32"", false)",,,,2021-09-10 15:46:58,2021-09-10 15:46:58,0.001s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:46:58,2021-09-10 15:47:03,4.976s,PASSED
+,,,,,,,
+Test Cases/All test cases/Switch to portrait,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:47:03,2021-09-10 15:47:10,7.154s,PASSED
+switchToLandscape(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:47:03,2021-09-10 15:47:04,0.823s,PASSED
+switchToPortrait(),,,,2021-09-10 15:47:04,2021-09-10 15:47:05,0.720s,PASSED
+verifyIsPortrait(STOP_ON_FAILURE),,,,2021-09-10 15:47:05,2021-09-10 15:47:05,0.070s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:47:05,2021-09-10 15:47:10,5.324s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify is portrait,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:47:10,2021-09-10 15:47:18,8.004s,PASSED
+try,,The iOS apps is started from setupTestCase(),,2021-09-10 15:47:11,2021-09-10 15:47:11,0.225s,PASSED
+switchToLandscape(),,,,2021-09-10 15:47:11,2021-09-10 15:47:12,0.871s,PASSED
+try,,,,2021-09-10 15:47:12,2021-09-10 15:47:12,0.613s,FAILED
+catch (Exception e),,,,2021-09-10 15:47:12,2021-09-10 15:47:12,0.001s,PASSED
+switchToPortrait(),,,,2021-09-10 15:47:12,2021-09-10 15:47:13,0.698s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:47:13,2021-09-10 15:47:18,4.999s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get attributes,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:47:18,2021-09-10 15:47:25,6.441s,PASSED
+"label = getAttribute(findTestObject(""DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - first item by Xpath""), ""label"", 0)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:47:18,2021-09-10 15:47:19,0.800s,PASSED
+"verifyMatch(label, ""Database Migration"", false)",,,,2021-09-10 15:47:19,2021-09-10 15:47:19,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:47:19,2021-09-10 15:47:25,5.318s,PASSED
+,,,,,,,
+Test Cases/All test cases/Press Home,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:47:25,2021-09-10 15:48:03,38.889s,PASSED
+"tap(findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add""), 0)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:47:25,2021-09-10 15:47:27,2.085s,PASSED
+pressHome(),,,,2021-09-10 15:47:27,2021-09-10 15:47:27,0.312s,PASSED
+"lblAddItem = findTestObject(""DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"")",,,,2021-09-10 15:47:27,2021-09-10 15:47:28,0.562s,PASSED
+"verifyElementNotExist(lblAddItem, 0)",,,,2021-09-10 15:47:28,2021-09-10 15:47:58,30.301s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:47:58,2021-09-10 15:48:03,5.322s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get device width,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:48:03,2021-09-10 15:48:09,5.819s,PASSED
+deviceWidth = getDeviceWidth(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:48:04,2021-09-10 15:48:04,0.187s,PASSED
+"verifyMatch(deviceWidth, dragAndDropAppsDeviceWidth, false)",,,,2021-09-10 15:48:04,2021-09-10 15:48:04,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:48:04,2021-09-10 15:48:09,5.212s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify element not exist,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:48:09,2021-09-10 15:48:48,38.473s,PASSED
+"btnAdd = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"")",,The iOS apps is started from setupTestCase(),,2021-09-10 15:48:10,2021-09-10 15:48:10,0.068s,PASSED
+try,,,,2021-09-10 15:48:10,2021-09-10 15:48:12,1.771s,FAILED
+catch (Exception e),,,,2021-09-10 15:48:12,2021-09-10 15:48:12,0.000s,PASSED
+"lblAddItem = findTestObject(""DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"")",,,,2021-09-10 15:48:12,2021-09-10 15:48:12,0.050s,PASSED
+try,,,,2021-09-10 15:48:12,2021-09-10 15:48:42,30.818s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:48:42,2021-09-10 15:48:48,5.391s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get element width,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:48:48,2021-09-10 15:48:55,6.800s,PASSED
+"elemWidth = getElementWidth(findTestObject(""DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration""), 5)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:48:48,2021-09-10 15:48:50,1.498s,PASSED
+"verifyMatch(elemWidth, ""193"", false)",,,,2021-09-10 15:48:50,2021-09-10 15:48:50,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:48:50,2021-09-10 15:48:55,5.008s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify element has attribute,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:48:55,2021-09-10 15:49:03,8.649s,PASSED
+"btnAdd = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"")",,The iOS apps is started from setupTestCase(),,2021-09-10 15:48:55,2021-09-10 15:48:55,0.066s,PASSED
+try,,,,2021-09-10 15:48:55,2021-09-10 15:48:56,1.437s,PASSED
+try,,,,2021-09-10 15:48:56,2021-09-10 15:48:58,1.551s,FAILED
+catch (Exception e),,,,2021-09-10 15:48:58,2021-09-10 15:48:58,0.000s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:48:58,2021-09-10 15:49:03,5.231s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get element top position,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:49:03,2021-09-10 15:49:10,6.759s,PASSED
+"elemTopPos = getElementTopPosition(findTestObject(""DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration""), 5)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:49:04,2021-09-10 15:49:05,1.398s,PASSED
+"verifyGreaterThan(elemTopPos, ""150"", STOP_ON_FAILURE)",,,,2021-09-10 15:49:05,2021-09-10 15:49:05,0.009s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:49:05,2021-09-10 15:49:10,5.047s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get device OS Version,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:49:10,2021-09-10 15:49:16,5.706s,PASSED
+deviceOSVersion = getDeviceOSVersion(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:49:10,2021-09-10 15:49:10,0.011s,PASSED
+"println(""loan testtttttttttttt: "" + deviceOSVersion)",,,,2021-09-10 15:49:10,2021-09-10 15:49:10,0.000s,PASSED
+"verifyMatch(deviceOSVersion, dragAndDropAppsOSVersion, false)",,,,2021-09-10 15:49:10,2021-09-10 15:49:10,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:49:10,2021-09-10 15:49:16,5.421s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify element exist,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:49:16,2021-09-10 15:49:54,38.076s,PASSED
+"btnAdd = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"")",,The iOS apps is started from setupTestCase(),,2021-09-10 15:49:16,2021-09-10 15:49:16,0.060s,PASSED
+try,,,,2021-09-10 15:49:16,2021-09-10 15:49:18,1.486s,PASSED
+"lblAddItem = findTestObject(""DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"")",,,,2021-09-10 15:49:18,2021-09-10 15:49:18,0.051s,PASSED
+try,,,,2021-09-10 15:49:18,2021-09-10 15:49:48,30.705s,FAILED
+catch (Exception e),,,,2021-09-10 15:49:48,2021-09-10 15:49:48,0.000s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:49:48,2021-09-10 15:49:54,5.441s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify element not visible,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:49:54,2021-09-10 15:50:06,12.588s,PASSED
+"elem = findTestObject(""DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration"")",,The iOS apps is started from setupTestCase(),,2021-09-10 15:49:54,2021-09-10 15:49:54,0.048s,PASSED
+try,,,,2021-09-10 15:49:54,2021-09-10 15:49:56,1.944s,FAILED
+catch (Exception e),,,,2021-09-10 15:49:56,2021-09-10 15:49:56,0.001s,PASSED
+"lblAddItem = findTestObject(""DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"")",,,,2021-09-10 15:49:56,2021-09-10 15:49:56,0.060s,PASSED
+try,,,,2021-09-10 15:49:56,2021-09-10 15:50:01,5.026s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:50:01,2021-09-10 15:50:06,5.152s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get text,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:50:06,2021-09-10 15:50:19,12.369s,PASSED
+"tap(findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add""), 0)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:50:07,2021-09-10 15:50:08,1.681s,PASSED
+"txtEmptyElem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeTextField"")",,,,2021-09-10 15:50:08,2021-09-10 15:50:08,0.077s,PASSED
+"inputText = ""Katalon QA Team""",,,,2021-09-10 15:50:08,2021-09-10 15:50:08,0.000s,PASSED
+"callTestCase(findTestCase(""_common/functionTC_setText""), [""object"":txtEmptyElem, ""text"":inputText])",,,,2021-09-10 15:50:08,2021-09-10 15:50:11,2.739s,PASSED
+"txtElem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text"", [""dynamicText"":inputText])",,,,2021-09-10 15:50:11,2021-09-10 15:50:11,0.108s,PASSED
+"value = getText(txtElem, 0)",,,,2021-09-10 15:50:11,2021-09-10 15:50:14,2.213s,PASSED
+"verifyMatch(inputText, value, false)",,,,2021-09-10 15:50:14,2021-09-10 15:50:14,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:50:14,2021-09-10 15:50:19,5.229s,PASSED
+,,,,,,,
+Test Cases/All test cases/Clear text,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:50:19,2021-09-10 15:51:03,44.567s,PASSED
+"tap(findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add""), 0)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:50:19,2021-09-10 15:50:21,2.211s,PASSED
+"txtEmptyElem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeTextField"")",,,,2021-09-10 15:50:21,2021-09-10 15:50:21,0.127s,PASSED
+"inputText = ""Katalon QA Team""",,,,2021-09-10 15:50:21,2021-09-10 15:50:21,0.000s,PASSED
+"callTestCase(findTestCase(""_common/functionTC_setText""), [""object"":txtEmptyElem, ""text"":inputText])",,,,2021-09-10 15:50:21,2021-09-10 15:50:24,2.483s,PASSED
+"txtElem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text"", [""dynamicText"":inputText])",,,,2021-09-10 15:50:24,2021-09-10 15:50:24,0.066s,PASSED
+"clearText(txtElem, 0)",,,,2021-09-10 15:50:24,2021-09-10 15:50:28,3.602s,PASSED
+"verifyElementNotExist(txtElem, 0)",,,,2021-09-10 15:50:28,2021-09-10 15:50:58,30.530s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:50:58,2021-09-10 15:51:03,5.167s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify element visible,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:51:03,2021-09-10 15:51:41,37.999s,PASSED
+"elem = findTestObject(""DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration"")",,The iOS apps is started from setupTestCase(),,2021-09-10 15:51:04,2021-09-10 15:51:04,0.063s,PASSED
+try,,,,2021-09-10 15:51:04,2021-09-10 15:51:05,1.691s,PASSED
+"lblAddItem = findTestObject(""DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"")",,,,2021-09-10 15:51:05,2021-09-10 15:51:05,0.042s,PASSED
+try,,,,2021-09-10 15:51:05,2021-09-10 15:51:36,30.812s,FAILED
+catch (Exception e),,,,2021-09-10 15:51:36,2021-09-10 15:51:36,0.001s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:51:36,2021-09-10 15:51:41,5.067s,PASSED
+,,,,,,,
+Test Cases/All test cases/Send keys,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:51:41,2021-09-10 15:51:54,13.062s,PASSED
+"tap(findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add""), 0)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:51:42,2021-09-10 15:51:44,1.962s,PASSED
+"txtEmptyElem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeTextField"")",,,,2021-09-10 15:51:44,2021-09-10 15:51:44,0.098s,PASSED
+"inputText = ""Katalon QA Team""",,,,2021-09-10 15:51:44,2021-09-10 15:51:44,0.001s,PASSED
+"sendKeys(txtEmptyElem, inputText)",,,,2021-09-10 15:51:44,2021-09-10 15:51:46,2.438s,PASSED
+"txtElem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text"", [""dynamicText"":inputText])",,,,2021-09-10 15:51:46,2021-09-10 15:51:46,0.079s,PASSED
+"verifyElementExist(txtElem, 0)",,,,2021-09-10 15:51:46,2021-09-10 15:51:49,2.520s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:51:49,2021-09-10 15:51:54,5.671s,PASSED
+,,,,,,,
+Test Cases/All test cases/Switch to landscape,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:51:54,2021-09-10 15:52:03,8.620s,PASSED
+switchToLandscape(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:51:55,2021-09-10 15:51:56,0.872s,PASSED
+verifyIsLandscape(STOP_ON_FAILURE),,,,2021-09-10 15:51:56,2021-09-10 15:51:56,0.070s,PASSED
+switchToPortrait(),,,,2021-09-10 15:51:56,2021-09-10 15:51:57,0.792s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:51:57,2021-09-10 15:52:03,6.378s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify is landscape,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:52:03,2021-09-10 15:52:12,8.797s,PASSED
+switchToLandscape(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:52:03,2021-09-10 15:52:04,0.866s,PASSED
+try,,,,2021-09-10 15:52:04,2021-09-10 15:52:04,0.055s,PASSED
+switchToPortrait(),,,,2021-09-10 15:52:04,2021-09-10 15:52:05,0.884s,PASSED
+try,,,,2021-09-10 15:52:05,2021-09-10 15:52:06,0.681s,FAILED
+catch (Exception e),,,,2021-09-10 15:52:06,2021-09-10 15:52:06,0.001s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:52:06,2021-09-10 15:52:12,5.901s,PASSED
+,,,,,,,
+Test Cases/All test cases/Start Application - start internal,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:52:12,2021-09-10 15:52:38,25.897s,PASSED
+closeApplication(),,,,2021-09-10 15:52:13,2021-09-10 15:52:14,1.082s,PASSED
+katalon.common.StartApps.startMobileApps(),,,,2021-09-10 15:52:14,2021-09-10 15:52:30,16.803s,PASSED
+"verifyElementExist(findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add""), 0)",,,,2021-09-10 15:52:30,2021-09-10 15:52:32,1.490s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:52:32,2021-09-10 15:52:38,5.853s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get device manufacturer,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:52:38,2021-09-10 15:52:44,6.166s,PASSED
+deviceManufacturer = getDeviceManufacturer(),,The iOS apps is started from setupTestCase(),,2021-09-10 15:52:38,2021-09-10 15:52:39,0.024s,PASSED
+"verifyMatch(deviceManufacturer, ""Apple"", false)",,,,2021-09-10 15:52:39,2021-09-10 15:52:39,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:52:39,2021-09-10 15:52:44,5.411s,PASSED
+,,,,,,,
+Test Cases/All test cases/Tap,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:52:44,2021-09-10 15:52:55,10.956s,PASSED
+"tap(findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add""), 0)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:52:44,2021-09-10 15:52:46,1.946s,PASSED
+"lblAddItem = findTestObject(""DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"")",,,,2021-09-10 15:52:46,2021-09-10 15:52:46,0.071s,PASSED
+"verifyElementExist(lblAddItem, 0)",,,,2021-09-10 15:52:46,2021-09-10 15:52:50,3.671s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:52:50,2021-09-10 15:52:55,4.937s,PASSED
+,,,,,,,
+Test Cases/All test cases/Set text,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:52:55,2021-09-10 15:53:07,12.420s,PASSED
+"tap(findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add""), 0)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:52:55,2021-09-10 15:52:57,1.768s,PASSED
+"txtEmptyElem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeTextField"")",,,,2021-09-10 15:52:57,2021-09-10 15:52:57,0.101s,PASSED
+"inputText = ""Katalon QA Team""",,,,2021-09-10 15:52:57,2021-09-10 15:52:57,0.001s,PASSED
+"callTestCase(findTestCase(""_common/functionTC_setText""), [""object"":txtEmptyElem, ""text"":inputText])",,,,2021-09-10 15:52:57,2021-09-10 15:53:00,2.788s,PASSED
+"txtElem = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text"", [""dynamicText"":inputText])",,,,2021-09-10 15:53:00,2021-09-10 15:53:00,0.057s,PASSED
+"verifyElementExist(txtElem, 0)",,,,2021-09-10 15:53:00,2021-09-10 15:53:02,2.359s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:53:02,2021-09-10 15:53:07,4.989s,PASSED
+,,,,,,,
+Test Cases/All test cases/Get element height,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:53:07,2021-09-10 15:53:14,6.477s,PASSED
+"elemHeight = getElementHeight(findTestObject(""DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration""), 0)",,The iOS apps is started from setupTestCase(),,2021-09-10 15:53:08,2021-09-10 15:53:09,1.330s,PASSED
+"verifyMatch(elemHeight, ""44"", false)",,,,2021-09-10 15:53:09,2021-09-10 15:53:09,0.002s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:53:09,2021-09-10 15:53:14,4.928s,PASSED
+,,,,,,,
+Test Cases/All test cases/Verify element not have attribute,,Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS,,2021-09-10 15:53:14,2021-09-10 15:53:23,9.271s,FAILED
+"btnAdd = findTestObject(""DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"")",,The iOS apps is started from setupTestCase(),,2021-09-10 15:53:14,2021-09-10 15:53:14,0.050s,PASSED
+try,,,,2021-09-10 15:53:14,2021-09-10 15:53:16,2.081s,FAILED
+catch (Exception e),,,,2021-09-10 15:53:16,2021-09-10 15:53:16,0.000s,PASSED
+try,,,,2021-09-10 15:53:16,2021-09-10 15:53:18,1.805s,FAILED
+catch (Exception e),,,,2021-09-10 15:53:18,2021-09-10 15:53:18,0.004s,PASSED
+Start tear down : tearDownTestCase,,,,2021-09-10 15:53:18,2021-09-10 15:53:23,5.033s,PASSED

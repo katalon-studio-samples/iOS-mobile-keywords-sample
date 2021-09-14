@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://github.com/analogcode/Swift-Radio-Pro</description>
+   <name>Find image elements - SwiftRadio</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e9b81fc-4543-40aa-bc9e-83ed06a65200</testCaseGuid>
+   <variable>
+      <defaultValue>'/Screenshots/Photo For Keyword Testing/TheRock.png'</defaultValue>
+      <description></description>
+      <id>2475c66f-fea2-4a3d-9384-3b4ecab6244c</id>
+      <masked>false</masked>
+      <name>imageShortPath</name>
+   </variable>
+</TestCaseEntity>

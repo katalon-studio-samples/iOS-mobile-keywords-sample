@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>functionTC_setText</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c4b60c2-6e42-4d40-968c-e43b44735639</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>7161c01f-1c64-4387-9cf4-919c434110fc</id>
+      <masked>false</masked>
+      <name>object</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8ea56187-aca6-4fdd-b0c7-f7f4c1aea129</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+</TestCaseEntity>

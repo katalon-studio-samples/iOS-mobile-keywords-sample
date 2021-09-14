@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Verify is portrait</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa1430c8-c5c9-44b4-a059-314f102abc7a</testCaseGuid>
+</TestCaseEntity>

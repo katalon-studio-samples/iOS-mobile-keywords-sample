@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DragAndDrop application" time="485.998" tests="33" failures="1" skips="0" errors="0">
+   <testsuite name="DragAndDrop application" tests="33" failures="1" errors="0" time="485.998" skips="0" timestamp="2021-09-10 15:57:17" hostname="loantran - localhost" id="Test Suites/Simulators/DragAndDrop application">
+      <properties>
+         <property name="deviceName" value="iPhone 12"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713"/>
+         <property name="logFiles" value="/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/execution0.log, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/appium.log, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/appium-proxy-server.log"/>
+         <property name="attachments" value="Screenshots/Katalon/katalonaa8.png, Screenshots/Katalon/katalonaa8.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264318517.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264318766.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264353200.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264353558.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264414320.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264414583.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264460596.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264511589.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264511826.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264518929.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264519212.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264617160.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264617406.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264644608.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264644934.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264714204.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264714488.png, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264715944.png"/>
+         <property name="hostName" value="loantran - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 12"/>
+         <property name="deviceOSVersion" value="14.5"/>
+      </properties>
+      <testcase name="Test Cases/All test cases/Start Exsting Application" time="22.679" classname="Test Cases/All test cases/Start Exsting Application" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:57:40 - [TEST_CASE][PASSED] - Test Cases/All test cases/Start Exsting Application: Test Cases/All test cases/Start Exsting Application
+
+2021-09-10 15:57:40 - [TEST_STEP][PASSED] - pressHome(): Home button is pressed
+
+2021-09-10 15:57:41 - [MESSAGE][PASSED] - Home button is pressed
+
+2021-09-10 15:57:41 - [TEST_STEP][PASSED] - startExistingApplication(dragAndDropAppsBundleId): Starting app with application ID: 'com.alfianlosari.DragAndDrop'
+
+2021-09-10 15:57:56 - [MESSAGE][PASSED] - Starting app with application ID: 'com.alfianlosari.DragAndDrop'
+
+2021-09-10 15:57:56 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"), 0): Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+
+2021-09-10 15:57:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:57:57 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+
+2021-09-10 15:57:57 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:57:57 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:57:57 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:58:02 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Tap at position" time="10.457" classname="Test Cases/All test cases/Tap at position" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:58:02 - [TEST_CASE][PASSED] - Test Cases/All test cases/Tap at position: Test Cases/All test cases/Tap at position
+
+2021-09-10 15:58:03 - [TEST_STEP][PASSED] - elem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"): null
+
+2021-09-10 15:58:03 - [TEST_STEP][PASSED] - x = getElementLeftPosition(elem, 5) + 3: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has left position '114'
+
+2021-09-10 15:58:04 - [MESSAGE][PASSED] - Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has left position '114'
+
+2021-09-10 15:58:04 - [TEST_STEP][PASSED] - y = getElementTopPosition(elem, 5) - 3: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has top position '126'
+
+2021-09-10 15:58:05 - [MESSAGE][PASSED] - Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has top position '126'
+
+2021-09-10 15:58:05 - [TEST_STEP][PASSED] - tapAtPosition(x, y): Tapped at [117, 123]
+
+2021-09-10 15:58:05 - [MESSAGE][PASSED] - Tapped at [117, 123]
+
+2021-09-10 15:58:05 - [TEST_STEP][PASSED] - lblAddItem = findTestObject("DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"): null
+
+2021-09-10 15:58:06 - [TEST_STEP][PASSED] - verifyElementExist(lblAddItem, 0): Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' is exist
+
+2021-09-10 15:58:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:58:08 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' is exist
+
+2021-09-10 15:58:08 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:58:08 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:58:08 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:58:13 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get device OS" time="5.15" classname="Test Cases/All test cases/Get device OS" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:58:13 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get device OS: Test Cases/All test cases/Get device OS
+
+2021-09-10 15:58:13 - [TEST_STEP][PASSED] - deviceOS = getDeviceOS(): Device OS name is: 'iOS'
+
+2021-09-10 15:58:13 - [MESSAGE][PASSED] - Device OS name is: 'iOS'
+
+2021-09-10 15:58:13 - [TEST_STEP][PASSED] - verifyMatch(deviceOS, "iOS", false): Actual text 'iOS' and expected text 'iOS' are matched 
+
+2021-09-10 15:58:13 - [MESSAGE][PASSED] - Actual text 'iOS' and expected text 'iOS' are matched 
+
+2021-09-10 15:58:13 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:58:13 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:58:13 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:58:18 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get device height" time="5.529" classname="Test Cases/All test cases/Get device height" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:58:18 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get device height: Test Cases/All test cases/Get device height
+
+2021-09-10 15:58:18 - [TEST_STEP][PASSED] - deviceHeight = getDeviceHeight(): Current device physical height is 844
+
+2021-09-10 15:58:18 - [MESSAGE][PASSED] - Current device physical height is 844
+
+2021-09-10 15:58:18 - [TEST_STEP][PASSED] - verifyMatch(deviceHeight, dragAndDropAppsDeviceHeight, false): Actual text '844' and expected text '844' are matched 
+
+2021-09-10 15:58:18 - [MESSAGE][PASSED] - Actual text '844' and expected text '844' are matched 
+
+2021-09-10 15:58:18 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:58:18 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:58:18 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:58:23 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get current orientation" time="5.399" classname="Test Cases/All test cases/Get current orientation" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:58:23 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get current orientation: Test Cases/All test cases/Get current orientation
+
+2021-09-10 15:58:24 - [TEST_STEP][PASSED] - orientation = getCurrentOrientation(): Current screen orientation of the device is 'portrait'
+
+2021-09-10 15:58:24 - [MESSAGE][PASSED] - Current screen orientation of the device is 'portrait'
+
+2021-09-10 15:58:24 - [TEST_STEP][PASSED] - verifyMatch(orientation, "portrait", false): Actual text 'portrait' and expected text 'portrait' are matched 
+
+2021-09-10 15:58:24 - [MESSAGE][PASSED] - Actual text 'portrait' and expected text 'portrait' are matched 
+
+2021-09-10 15:58:24 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:58:24 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:58:24 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:58:29 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Take screenshot" time="6.158" classname="Test Cases/All test cases/Take screenshot" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:58:29 - [TEST_CASE][PASSED] - Test Cases/All test cases/Take screenshot: Test Cases/All test cases/Take screenshot
+
+2021-09-10 15:58:29 - [TEST_STEP][PASSED] - uniqueString = toString().substring(0, 3): null
+
+2021-09-10 15:58:29 - [TEST_STEP][PASSED] - expectedFilename = currentProjDir + "/Screenshots/Appiumdriver/driver" + uniqueString + ".png": null
+
+2021-09-10 15:58:29 - [TEST_STEP][PASSED] - webdriver.screenshot.TakeScreenshot.takeScreenshot(expectedFilename, STOP_ON_FAILURE): webdriver.screenshot.TakeScreenshot.takeScreenshot is PASSED
+
+2021-09-10 15:58:29 - [MESSAGE][PASSED] - webdriver.screenshot.TakeScreenshot.takeScreenshot is PASSED
+
+2021-09-10 15:58:29 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/Katalon/katalon" + uniqueString + ".png"): Screenshot is taken
+
+2021-09-10 15:58:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|Screenshots/Katalon/katalonaa8.png]]
+
+2021-09-10 15:58:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|Screenshots/Katalon/katalonaa8.png]]
+
+2021-09-10 15:58:30 - [TEST_STEP][PASSED] - actualFilename = currentProjDir + "/Screenshots/Katalon/katalon" + uniqueString + ".png": null
+
+2021-09-10 15:58:30 - [TEST_STEP][PASSED] - katalon.verifyImage.ImageComparison.areMatched(expectedFilename, actualFilename, CONTINUE_ON_FAILURE): katalon.verifyImage.ImageComparison.areMatched is PASSED
+
+2021-09-10 15:58:30 - [MESSAGE][INFO] - Verify the image at location: /Users/loantran/Documents/mobile-samples-iOS/Screenshots/Appiumdriver/driveraa8.png is matched to the other image at: /Users/loantran/Documents/mobile-samples-iOS/Screenshots/Katalon/katalonaa8.png
+
+2021-09-10 15:58:30 - [MESSAGE][PASSED] - katalon.verifyImage.ImageComparison.areMatched is PASSED
+
+2021-09-10 15:58:30 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:58:30 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:58:30 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:58:35 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify element attribute" time="8.69" classname="Test Cases/All test cases/Verify element attribute" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:58:35 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify element attribute: Test Cases/All test cases/Verify element attribute
+
+2021-09-10 15:58:35 - [TEST_STEP][PASSED] - btnAdd = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"): null
+
+2021-09-10 15:58:35 - [TEST_STEP][PASSED] - try: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with value 'Add'
+
+2021-09-10 15:58:35 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnAdd, "name", "Add", 0): Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with value 'Add'
+
+2021-09-10 15:58:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:58:37 - [MESSAGE][PASSED] - Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with value 'Add'
+
+2021-09-10 15:58:37 - [TEST_STEP][FAILED] - try: Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with value 'add' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with actual value 'Add' instead of expected value 'add'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:2044)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$10.call(Unknown Source)
+	at Verify element attribute.run(Verify element attribute:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 15:58:37 - [TEST_STEP][FAILED] - verifyElementAttributeValue(btnAdd, "name", "add", 0): Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with value 'add' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with actual value 'Add' instead of expected value 'add'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:2044)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$10.call(Unknown Source)
+	at Verify element attribute.run(Verify element attribute:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 15:58:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:58:38 - [MESSAGE][FAILED] - Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with actual value 'Add' instead of expected value 'add'
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264318517.png]]
+
+2021-09-10 15:58:38 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with value 'add' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'name' with actual value 'Add' instead of expected value 'add'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:97)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementAttributeValue(MobileBuiltInKeywords.groovy:2044)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementAttributeValue$10.call(Unknown Source)
+	at Verify element attribute.run(Verify element attribute:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264318766.png]]
+
+2021-09-10 15:58:38 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 15:58:38 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 15:58:38 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:58:38 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:58:38 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:58:44 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Run iOS app in background and wait" time="13.639" classname="Test Cases/All test cases/Run iOS app in background and wait" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:58:44 - [TEST_CASE][PASSED] - Test Cases/All test cases/Run iOS app in background and wait: Test Cases/All test cases/Run iOS app in background and wait
+
+2021-09-10 15:58:44 - [TEST_STEP][PASSED] - runIOSAppInBackgroundAndWait(7): Run iOS app passed
+
+2021-09-10 15:58:52 - [MESSAGE][PASSED] - Run iOS app passed
+
+2021-09-10 15:58:52 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:58:52 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:58:52 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:58:57 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get element left position" time="6.149" classname="Test Cases/All test cases/Get element left position" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:58:57 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get element left position: Test Cases/All test cases/Get element left position
+
+2021-09-10 15:58:58 - [TEST_STEP][PASSED] - elemLeftPos = getElementLeftPosition(findTestObject("DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration"), 5): Object 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' has left position '32'
+
+2021-09-10 15:58:59 - [MESSAGE][PASSED] - Object 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' has left position '32'
+
+2021-09-10 15:58:59 - [TEST_STEP][PASSED] - verifyMatch(elemLeftPos, "32", false): Actual text '32' and expected text '32' are matched 
+
+2021-09-10 15:58:59 - [MESSAGE][PASSED] - Actual text '32' and expected text '32' are matched 
+
+2021-09-10 15:58:59 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:58:59 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:58:59 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:59:03 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Switch to portrait" time="7.646" classname="Test Cases/All test cases/Switch to portrait" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:59:03 - [TEST_CASE][PASSED] - Test Cases/All test cases/Switch to portrait: Test Cases/All test cases/Switch to portrait
+
+2021-09-10 15:59:04 - [TEST_STEP][PASSED] - switchToLandscape(): Switching the device to landscape mode successfully
+
+2021-09-10 15:59:05 - [MESSAGE][PASSED] - Switching the device to landscape mode successfully
+
+2021-09-10 15:59:05 - [TEST_STEP][PASSED] - switchToPortrait(): Switching the device to portrait mode successfully
+
+2021-09-10 15:59:05 - [MESSAGE][PASSED] - Switching the device to portrait mode successfully
+
+2021-09-10 15:59:05 - [TEST_STEP][PASSED] - verifyIsPortrait(STOP_ON_FAILURE): Device is in portrait mode
+
+2021-09-10 15:59:05 - [MESSAGE][PASSED] - Device is in portrait mode
+
+2021-09-10 15:59:05 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:59:05 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:59:05 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:59:11 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify is portrait" time="8.475" classname="Test Cases/All test cases/Verify is portrait" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:59:11 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify is portrait: Test Cases/All test cases/Verify is portrait
+
+2021-09-10 15:59:12 - [TEST_STEP][PASSED] - try: null
+
+2021-09-10 15:59:12 - [TEST_STEP][PASSED] - verifyIsPortrait(STOP_ON_FAILURE): Device is in portrait mode
+
+2021-09-10 15:59:12 - [MESSAGE][PASSED] - Device is in portrait mode
+
+2021-09-10 15:59:12 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 15:59:12 - [TEST_STEP][PASSED] - switchToLandscape(): Switching the device to landscape mode successfully
+
+2021-09-10 15:59:13 - [MESSAGE][PASSED] - Switching the device to landscape mode successfully
+
+2021-09-10 15:59:13 - [TEST_STEP][FAILED] - try: Unable to verify if device is in portrait mode (Root cause: com.kms.katalon.core.exception.StepFailedException: Device is NOT in portrait mode
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword$_verifyIsPortrait_closure1.doCall(VerifyIsPortraitKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword$_verifyIsPortrait_closure1.call(VerifyIsPortraitKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword.verifyIsPortrait(VerifyIsPortraitKeyword.groovy:67)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword.execute(VerifyIsPortraitKeyword.groovy:62)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyIsPortrait(MobileBuiltInKeywords.groovy:1686)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyIsPortrait$14.call(Unknown Source)
+	at Verify is portrait.run(Verify is portrait:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 15:59:13 - [TEST_STEP][FAILED] - verifyIsPortrait(STOP_ON_FAILURE): Unable to verify if device is in portrait mode (Root cause: com.kms.katalon.core.exception.StepFailedException: Device is NOT in portrait mode
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword$_verifyIsPortrait_closure1.doCall(VerifyIsPortraitKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword$_verifyIsPortrait_closure1.call(VerifyIsPortraitKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword.verifyIsPortrait(VerifyIsPortraitKeyword.groovy:67)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword.execute(VerifyIsPortraitKeyword.groovy:62)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyIsPortrait(MobileBuiltInKeywords.groovy:1686)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyIsPortrait$14.call(Unknown Source)
+	at Verify is portrait.run(Verify is portrait:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 15:59:13 - [MESSAGE][FAILED] - Device is NOT in portrait mode
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264353200.png]]
+
+2021-09-10 15:59:13 - [MESSAGE][FAILED] - Unable to verify if device is in portrait mode (Root cause: com.kms.katalon.core.exception.StepFailedException: Device is NOT in portrait mode
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword$_verifyIsPortrait_closure1.doCall(VerifyIsPortraitKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword$_verifyIsPortrait_closure1.call(VerifyIsPortraitKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword.verifyIsPortrait(VerifyIsPortraitKeyword.groovy:67)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsPortraitKeyword.execute(VerifyIsPortraitKeyword.groovy:62)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyIsPortrait(MobileBuiltInKeywords.groovy:1686)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyIsPortrait$14.call(Unknown Source)
+	at Verify is portrait.run(Verify is portrait:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264353558.png]]
+
+2021-09-10 15:59:13 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 15:59:13 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 15:59:13 - [TEST_STEP][PASSED] - switchToPortrait(): Switching the device to portrait mode successfully
+
+2021-09-10 15:59:14 - [MESSAGE][PASSED] - Switching the device to portrait mode successfully
+
+2021-09-10 15:59:14 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:59:14 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:59:14 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:59:20 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get attributes" time="6.42" classname="Test Cases/All test cases/Get attributes" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:59:20 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get attributes: Test Cases/All test cases/Get attributes
+
+2021-09-10 15:59:20 - [TEST_STEP][PASSED] - label = getAttribute(findTestObject("DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - first item by Xpath"), "label", 0): Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - first item by Xpath' has attribute 'label' is 'Database Migration'
+
+2021-09-10 15:59:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:59:21 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - first item by Xpath' has attribute 'label' is 'Database Migration'
+
+2021-09-10 15:59:21 - [TEST_STEP][PASSED] - verifyMatch(label, "Database Migration", false): Actual text 'Database Migration' and expected text 'Database Migration' are matched 
+
+2021-09-10 15:59:21 - [MESSAGE][PASSED] - Actual text 'Database Migration' and expected text 'Database Migration' are matched 
+
+2021-09-10 15:59:21 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:59:21 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:59:21 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:59:26 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Press Home" time="39.813" classname="Test Cases/All test cases/Press Home" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:59:26 - [TEST_CASE][PASSED] - Test Cases/All test cases/Press Home: Test Cases/All test cases/Press Home
+
+2021-09-10 15:59:26 - [TEST_STEP][PASSED] - tap(findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"), 0): Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 15:59:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:59:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 15:59:28 - [TEST_STEP][PASSED] - pressHome(): Home button is pressed
+
+2021-09-10 15:59:30 - [MESSAGE][PASSED] - Home button is pressed
+
+2021-09-10 15:59:30 - [TEST_STEP][PASSED] - lblAddItem = findTestObject("DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"): null
+
+2021-09-10 15:59:30 - [TEST_STEP][PASSED] - verifyElementNotExist(lblAddItem, 0): Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+
+2021-09-10 15:59:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:00:00 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+
+2021-09-10 16:00:00 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:00:00 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:00:00 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:00:06 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get device width" time="6.232" classname="Test Cases/All test cases/Get device width" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:00:06 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get device width: Test Cases/All test cases/Get device width
+
+2021-09-10 16:00:06 - [TEST_STEP][PASSED] - deviceWidth = getDeviceWidth(): Current device physical width is 390
+
+2021-09-10 16:00:07 - [MESSAGE][PASSED] - Current device physical width is 390
+
+2021-09-10 16:00:07 - [TEST_STEP][PASSED] - verifyMatch(deviceWidth, dragAndDropAppsDeviceWidth, false): Actual text '390' and expected text '390' are matched 
+
+2021-09-10 16:00:07 - [MESSAGE][PASSED] - Actual text '390' and expected text '390' are matched 
+
+2021-09-10 16:00:07 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:00:07 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:00:07 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:00:12 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify element not exist" time="37.63" classname="Test Cases/All test cases/Verify element not exist" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:00:12 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify element not exist: Test Cases/All test cases/Verify element not exist
+
+2021-09-10 16:00:12 - [TEST_STEP][PASSED] - btnAdd = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"): null
+
+2021-09-10 16:00:13 - [TEST_STEP][FAILED] - try: Failed to check for element not exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword$_verifyElementNotExist_closure1.doCall(VerifyElementNotExistKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword$_verifyElementNotExist_closure1.call(VerifyElementNotExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword.verifyElementNotExist(VerifyElementNotExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword.execute(VerifyElementNotExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotExist(MobileBuiltInKeywords.groovy:1619)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotExist$17.call(Unknown Source)
+	at Verify element not exist.run(Verify element not exist:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:00:13 - [TEST_STEP][FAILED] - verifyElementNotExist(btnAdd, 0): Failed to check for element not exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword$_verifyElementNotExist_closure1.doCall(VerifyElementNotExistKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword$_verifyElementNotExist_closure1.call(VerifyElementNotExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword.verifyElementNotExist(VerifyElementNotExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword.execute(VerifyElementNotExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotExist(MobileBuiltInKeywords.groovy:1619)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotExist$17.call(Unknown Source)
+	at Verify element not exist.run(Verify element not exist:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:00:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:00:14 - [MESSAGE][FAILED] - Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264414320.png]]
+
+2021-09-10 16:00:14 - [MESSAGE][FAILED] - Failed to check for element not exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword$_verifyElementNotExist_closure1.doCall(VerifyElementNotExistKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword$_verifyElementNotExist_closure1.call(VerifyElementNotExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword.verifyElementNotExist(VerifyElementNotExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotExistKeyword.execute(VerifyElementNotExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotExist(MobileBuiltInKeywords.groovy:1619)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotExist$17.call(Unknown Source)
+	at Verify element not exist.run(Verify element not exist:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264414583.png]]
+
+2021-09-10 16:00:14 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 16:00:14 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 16:00:14 - [TEST_STEP][PASSED] - lblAddItem = findTestObject("DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"): null
+
+2021-09-10 16:00:14 - [TEST_STEP][PASSED] - try: Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+
+2021-09-10 16:00:14 - [TEST_STEP][PASSED] - verifyElementNotExist(lblAddItem, 0): Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+
+2021-09-10 16:00:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:00:44 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+
+2021-09-10 16:00:44 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:00:44 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:00:44 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:00:50 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get element width" time="6.879" classname="Test Cases/All test cases/Get element width" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:00:50 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get element width: Test Cases/All test cases/Get element width
+
+2021-09-10 16:00:50 - [TEST_STEP][PASSED] - elemWidth = getElementWidth(findTestObject("DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration"), 5): Object 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' has width: '193'
+
+2021-09-10 16:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' has width: '193'
+
+2021-09-10 16:00:51 - [TEST_STEP][PASSED] - verifyMatch(elemWidth, "193", false): Actual text '193' and expected text '193' are matched 
+
+2021-09-10 16:00:51 - [MESSAGE][PASSED] - Actual text '193' and expected text '193' are matched 
+
+2021-09-10 16:00:51 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:00:51 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:00:51 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:00:57 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify element has attribute" time="9.394" classname="Test Cases/All test cases/Verify element has attribute" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:00:57 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify element has attribute: Test Cases/All test cases/Verify element has attribute
+
+2021-09-10 16:00:57 - [TEST_STEP][PASSED] - btnAdd = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"): null
+
+2021-09-10 16:00:57 - [TEST_STEP][PASSED] - try: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'enabled'
+
+2021-09-10 16:00:57 - [TEST_STEP][PASSED] - verifyElementHasAttribute(btnAdd, "enabled", 0): Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'enabled'
+
+2021-09-10 16:00:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:00:59 - [MESSAGE][PASSED] - Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'enabled'
+
+2021-09-10 16:00:59 - [TEST_STEP][FAILED] - try: Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'qaKatalonTest' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The attribute 'qaKatalonTest' is unknown. Valid attribute names are: (
+    UID,
+    accessibilityContainer,
+    accessible,
+    enabled,
+    frame,
+    index,
+    label,
+    name,
+    rect,
+    selected,
+    type,
+    value,
+    visible,
+    wdAccessibilityContainer,
+    wdAccessible,
+    wdEnabled,
+    wdFrame,
+    wdIndex,
+    wdLabel,
+    wdName,
+    wdRect,
+    wdSelected,
+    wdType,
+    wdUID,
+    wdValue,
+    wdVisible
+)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FVFXH243HV2H.local', ip: '192.168.1.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {automationName: XCUITest, browserName: , bundleId: com.alfianlosari.DragAndDrop, chromedriverPort: 51639, databaseEnabled: false, deviceName: iPhone 12, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 1800, platform: IOS, platformName: iOS, platformVersion: 14.5, realDeviceLogger: /Users/loantran/Documents/K..., takesScreenshot: true, udid: B78A79C3-87FF-4780-856F-33B..., waitForAppScript: true;, wdaLocalPort: 51698, webStorageEnabled: false}
+Session ID: 648d3d35-153d-472c-bd25-caedf35e3c23
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileCommonHelper.getAttributeValue(MobileCommonHelper.java:145)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementHasAttribute(MobileBuiltInKeywords.groovy:1974)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementHasAttribute$20.call(Unknown Source)
+	at Verify element has attribute.run(Verify element has attribute:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:00:59 - [TEST_STEP][FAILED] - verifyElementHasAttribute(btnAdd, "qaKatalonTest", 0): Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'qaKatalonTest' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The attribute 'qaKatalonTest' is unknown. Valid attribute names are: (
+    UID,
+    accessibilityContainer,
+    accessible,
+    enabled,
+    frame,
+    index,
+    label,
+    name,
+    rect,
+    selected,
+    type,
+    value,
+    visible,
+    wdAccessibilityContainer,
+    wdAccessible,
+    wdEnabled,
+    wdFrame,
+    wdIndex,
+    wdLabel,
+    wdName,
+    wdRect,
+    wdSelected,
+    wdType,
+    wdUID,
+    wdValue,
+    wdVisible
+)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FVFXH243HV2H.local', ip: '192.168.1.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {automationName: XCUITest, browserName: , bundleId: com.alfianlosari.DragAndDrop, chromedriverPort: 51639, databaseEnabled: false, deviceName: iPhone 12, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 1800, platform: IOS, platformName: iOS, platformVersion: 14.5, realDeviceLogger: /Users/loantran/Documents/K..., takesScreenshot: true, udid: B78A79C3-87FF-4780-856F-33B..., waitForAppScript: true;, wdaLocalPort: 51698, webStorageEnabled: false}
+Session ID: 648d3d35-153d-472c-bd25-caedf35e3c23
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileCommonHelper.getAttributeValue(MobileCommonHelper.java:145)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementHasAttribute(MobileBuiltInKeywords.groovy:1974)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementHasAttribute$20.call(Unknown Source)
+	at Verify element has attribute.run(Verify element has attribute:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:00:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:01:00 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'qaKatalonTest' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The attribute 'qaKatalonTest' is unknown. Valid attribute names are: (
+    UID,
+    accessibilityContainer,
+    accessible,
+    enabled,
+    frame,
+    index,
+    label,
+    name,
+    rect,
+    selected,
+    type,
+    value,
+    visible,
+    wdAccessibilityContainer,
+    wdAccessible,
+    wdEnabled,
+    wdFrame,
+    wdIndex,
+    wdLabel,
+    wdName,
+    wdRect,
+    wdSelected,
+    wdType,
+    wdUID,
+    wdValue,
+    wdVisible
+)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FVFXH243HV2H.local', ip: '192.168.1.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {automationName: XCUITest, browserName: , bundleId: com.alfianlosari.DragAndDrop, chromedriverPort: 51639, databaseEnabled: false, deviceName: iPhone 12, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 1800, platform: IOS, platformName: iOS, platformVersion: 14.5, realDeviceLogger: /Users/loantran/Documents/K..., takesScreenshot: true, udid: B78A79C3-87FF-4780-856F-33B..., waitForAppScript: true;, wdaLocalPort: 51698, webStorageEnabled: false}
+Session ID: 648d3d35-153d-472c-bd25-caedf35e3c23
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileCommonHelper.getAttributeValue(MobileCommonHelper.java:145)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementHasAttribute(MobileBuiltInKeywords.groovy:1974)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementHasAttribute$20.call(Unknown Source)
+	at Verify element has attribute.run(Verify element has attribute:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264460596.png]]
+
+2021-09-10 16:01:00 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 16:01:00 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 16:01:00 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:01:00 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:01:00 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:01:06 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get element top position" time="6.708" classname="Test Cases/All test cases/Get element top position" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:01:06 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get element top position: Test Cases/All test cases/Get element top position
+
+2021-09-10 16:01:06 - [TEST_STEP][PASSED] - elemTopPos = getElementTopPosition(findTestObject("DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration"), 5): Object 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' has top position '185'
+
+2021-09-10 16:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' has top position '185'
+
+2021-09-10 16:01:08 - [TEST_STEP][PASSED] - verifyGreaterThan(elemTopPos, "150", STOP_ON_FAILURE): Actual number '185' is greater than expected number '150'
+
+2021-09-10 16:01:08 - [MESSAGE][PASSED] - Actual number '185' is greater than expected number '150'
+
+2021-09-10 16:01:08 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:01:08 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:01:08 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:01:13 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get device OS Version" time="5.963" classname="Test Cases/All test cases/Get device OS Version" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:01:13 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get device OS Version: Test Cases/All test cases/Get device OS Version
+
+2021-09-10 16:01:13 - [TEST_STEP][PASSED] - deviceOSVersion = getDeviceOSVersion(): Device OS version is: '14.5'
+
+2021-09-10 16:01:13 - [MESSAGE][PASSED] - Device OS version is: '14.5'
+
+2021-09-10 16:01:13 - [TEST_STEP][PASSED] - println("loan testtttttttttttt: " + deviceOSVersion): null
+
+2021-09-10 16:01:13 - [TEST_STEP][PASSED] - verifyMatch(deviceOSVersion, dragAndDropAppsOSVersion, false): Actual text '14.5' and expected text '14.5' are matched 
+
+2021-09-10 16:01:13 - [MESSAGE][PASSED] - Actual text '14.5' and expected text '14.5' are matched 
+
+2021-09-10 16:01:13 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:01:13 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:01:13 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:01:19 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify element exist" time="37.81" classname="Test Cases/All test cases/Verify element exist" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:01:19 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify element exist: Test Cases/All test cases/Verify element exist
+
+2021-09-10 16:01:19 - [TEST_STEP][PASSED] - btnAdd = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"): null
+
+2021-09-10 16:01:19 - [TEST_STEP][PASSED] - try: Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+
+2021-09-10 16:01:19 - [TEST_STEP][PASSED] - verifyElementExist(btnAdd, 0): Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+
+2021-09-10 16:01:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:01:20 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+
+2021-09-10 16:01:20 - [TEST_STEP][PASSED] - lblAddItem = findTestObject("DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"): null
+
+2021-09-10 16:01:20 - [TEST_STEP][FAILED] - try: Failed to check for element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1586)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$2.call(Unknown Source)
+	at Verify element exist.run(Verify element exist:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:01:20 - [TEST_STEP][FAILED] - verifyElementExist(lblAddItem, 0): Failed to check for element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1586)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$2.call(Unknown Source)
+	at Verify element exist.run(Verify element exist:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:01:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:01:51 - [MESSAGE][FAILED] - Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264511589.png]]
+
+2021-09-10 16:01:52 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1586)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$2.call(Unknown Source)
+	at Verify element exist.run(Verify element exist:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264511826.png]]
+
+2021-09-10 16:01:52 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 16:01:52 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 16:01:52 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:01:52 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:01:52 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:01:57 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify element not visible" time="12.981" classname="Test Cases/All test cases/Verify element not visible" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:01:57 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify element not visible: Test Cases/All test cases/Verify element not visible
+
+2021-09-10 16:01:57 - [TEST_STEP][PASSED] - elem = findTestObject("DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration"): null
+
+2021-09-10 16:01:57 - [TEST_STEP][FAILED] - try: Failed to check if element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is not visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:1895)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$22.call(Unknown Source)
+	at Verify element not visible.run(Verify element not visible:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:01:57 - [TEST_STEP][FAILED] - verifyElementNotVisible(elem, 5): Failed to check if element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is not visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:1895)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$22.call(Unknown Source)
+	at Verify element not visible.run(Verify element not visible:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:01:59 - [MESSAGE][FAILED] - Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is visible
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264518929.png]]
+
+2021-09-10 16:01:59 - [MESSAGE][FAILED] - Failed to check if element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is not visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:1895)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$22.call(Unknown Source)
+	at Verify element not visible.run(Verify element not visible:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264519212.png]]
+
+2021-09-10 16:01:59 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 16:01:59 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 16:01:59 - [TEST_STEP][PASSED] - lblAddItem = findTestObject("DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"): null
+
+2021-09-10 16:01:59 - [TEST_STEP][PASSED] - try: Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+
+2021-09-10 16:01:59 - [TEST_STEP][PASSED] - verifyElementNotVisible(lblAddItem, 5): Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+
+2021-09-10 16:02:04 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+
+2021-09-10 16:02:04 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:02:04 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:02:04 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:02:10 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get text" time="12.672" classname="Test Cases/All test cases/Get text" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:02:10 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get text: Test Cases/All test cases/Get text
+
+2021-09-10 16:02:10 - [TEST_STEP][PASSED] - tap(findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"), 0): Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:02:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:02:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:02:12 - [TEST_STEP][PASSED] - txtEmptyElem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeTextField"): null
+
+2021-09-10 16:02:13 - [TEST_STEP][PASSED] - inputText = "Katalon QA Team": null
+
+2021-09-10 16:02:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("_common/functionTC_setText"), ["object":txtEmptyElem, "text":inputText]): Call Test Case 'Test Cases/_common/functionTC_setText' successfully
+
+2021-09-10 16:02:13 - [TEST_CASE][PASSED] - Test Cases/_common/functionTC_setText: Test Cases/_common/functionTC_setText
+
+2021-09-10 16:02:13 - [TEST_STEP][PASSED] - setText(object, text, 0): Text 'Katalon QA Team' has been set to element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField'
+
+2021-09-10 16:02:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:02:15 - [MESSAGE][PASSED] - Text 'Katalon QA Team' has been set to element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField'
+
+2021-09-10 16:02:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/_common/functionTC_setText' successfully
+
+2021-09-10 16:02:15 - [TEST_STEP][PASSED] - txtElem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text", ["dynamicText":inputText]): null
+
+2021-09-10 16:02:15 - [TEST_STEP][PASSED] - value = getText(txtElem, 0): Text of element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' is: 'Katalon QA Team'
+
+2021-09-10 16:02:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:02:17 - [MESSAGE][PASSED] - Text of element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' is: 'Katalon QA Team'
+
+2021-09-10 16:02:17 - [TEST_STEP][PASSED] - verifyMatch(inputText, value, false): Actual text 'Katalon QA Team' and expected text 'Katalon QA Team' are matched 
+
+2021-09-10 16:02:17 - [MESSAGE][PASSED] - Actual text 'Katalon QA Team' and expected text 'Katalon QA Team' are matched 
+
+2021-09-10 16:02:17 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:02:17 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:02:17 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:02:22 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Clear text" time="42.283" classname="Test Cases/All test cases/Clear text" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:02:22 - [TEST_CASE][PASSED] - Test Cases/All test cases/Clear text: Test Cases/All test cases/Clear text
+
+2021-09-10 16:02:23 - [TEST_STEP][PASSED] - tap(findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"), 0): Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:02:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:02:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:02:24 - [TEST_STEP][PASSED] - txtEmptyElem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeTextField"): null
+
+2021-09-10 16:02:24 - [TEST_STEP][PASSED] - inputText = "Katalon QA Team": null
+
+2021-09-10 16:02:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("_common/functionTC_setText"), ["object":txtEmptyElem, "text":inputText]): Call Test Case 'Test Cases/_common/functionTC_setText' successfully
+
+2021-09-10 16:02:25 - [TEST_CASE][PASSED] - Test Cases/_common/functionTC_setText: Test Cases/_common/functionTC_setText
+
+2021-09-10 16:02:25 - [TEST_STEP][PASSED] - setText(object, text, 0): Text 'Katalon QA Team' has been set to element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField'
+
+2021-09-10 16:02:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:02:27 - [MESSAGE][PASSED] - Text 'Katalon QA Team' has been set to element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField'
+
+2021-09-10 16:02:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/_common/functionTC_setText' successfully
+
+2021-09-10 16:02:27 - [TEST_STEP][PASSED] - txtElem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text", ["dynamicText":inputText]): null
+
+2021-09-10 16:02:27 - [TEST_STEP][PASSED] - clearText(txtElem, 0): Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' text is cleared
+
+2021-09-10 16:02:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:02:29 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' text is cleared
+
+2021-09-10 16:02:29 - [TEST_STEP][PASSED] - verifyElementNotExist(txtElem, 0): Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' not found
+
+2021-09-10 16:02:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:02:59 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' not found
+
+2021-09-10 16:02:59 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:02:59 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:02:59 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:03:05 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify element visible" time="37.683" classname="Test Cases/All test cases/Verify element visible" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:03:05 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify element visible: Test Cases/All test cases/Verify element visible
+
+2021-09-10 16:03:05 - [TEST_STEP][PASSED] - elem = findTestObject("DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration"): null
+
+2021-09-10 16:03:05 - [TEST_STEP][PASSED] - try: Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is visible
+
+2021-09-10 16:03:05 - [TEST_STEP][PASSED] - verifyElementVisible(elem, 5): Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is visible
+
+2021-09-10 16:03:06 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' is visible
+
+2021-09-10 16:03:06 - [TEST_STEP][PASSED] - lblAddItem = findTestObject("DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"): null
+
+2021-09-10 16:03:06 - [TEST_STEP][FAILED] - try: Failed to check for element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1862)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$26.call(Unknown Source)
+	at Verify element visible.run(Verify element visible:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:03:06 - [TEST_STEP][FAILED] - verifyElementVisible(lblAddItem, 0): Failed to check for element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1862)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$26.call(Unknown Source)
+	at Verify element visible.run(Verify element visible:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:03:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:03:37 - [MESSAGE][FAILED] - Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264617160.png]]
+
+2021-09-10 16:03:37 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1862)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$26.call(Unknown Source)
+	at Verify element visible.run(Verify element visible:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264617406.png]]
+
+2021-09-10 16:03:37 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 16:03:37 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 16:03:37 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:03:37 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:03:37 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:03:42 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Send keys" time="11.969" classname="Test Cases/All test cases/Send keys" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:03:42 - [TEST_CASE][PASSED] - Test Cases/All test cases/Send keys: Test Cases/All test cases/Send keys
+
+2021-09-10 16:03:43 - [TEST_STEP][PASSED] - tap(findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"), 0): Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:03:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:03:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:03:45 - [TEST_STEP][PASSED] - txtEmptyElem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeTextField"): null
+
+2021-09-10 16:03:45 - [TEST_STEP][PASSED] - inputText = "Katalon QA Team": null
+
+2021-09-10 16:03:45 - [TEST_STEP][PASSED] - sendKeys(txtEmptyElem, inputText): Send keys 'Katalon QA Team' on test object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField' successfully.
+
+2021-09-10 16:03:47 - [MESSAGE][PASSED] - Send keys 'Katalon QA Team' on test object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField' successfully.
+
+2021-09-10 16:03:47 - [TEST_STEP][PASSED] - txtElem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text", ["dynamicText":inputText]): null
+
+2021-09-10 16:03:47 - [TEST_STEP][PASSED] - verifyElementExist(txtElem, 0): Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' is exist
+
+2021-09-10 16:03:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:03:49 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' is exist
+
+2021-09-10 16:03:49 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:03:49 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:03:49 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:03:54 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Switch to landscape" time="7.587" classname="Test Cases/All test cases/Switch to landscape" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:03:54 - [TEST_CASE][PASSED] - Test Cases/All test cases/Switch to landscape: Test Cases/All test cases/Switch to landscape
+
+2021-09-10 16:03:55 - [TEST_STEP][PASSED] - switchToLandscape(): Switching the device to landscape mode successfully
+
+2021-09-10 16:03:55 - [MESSAGE][PASSED] - Switching the device to landscape mode successfully
+
+2021-09-10 16:03:55 - [TEST_STEP][PASSED] - verifyIsLandscape(STOP_ON_FAILURE): Device is in landspace mode
+
+2021-09-10 16:03:55 - [MESSAGE][PASSED] - Device is in landspace mode
+
+2021-09-10 16:03:55 - [TEST_STEP][PASSED] - switchToPortrait(): Switching the device to portrait mode successfully
+
+2021-09-10 16:03:56 - [MESSAGE][PASSED] - Switching the device to portrait mode successfully
+
+2021-09-10 16:03:56 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:03:56 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:03:56 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:04:02 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify is landscape" time="8.628" classname="Test Cases/All test cases/Verify is landscape" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:04:02 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify is landscape: Test Cases/All test cases/Verify is landscape
+
+2021-09-10 16:04:03 - [TEST_STEP][PASSED] - switchToLandscape(): Switching the device to landscape mode successfully
+
+2021-09-10 16:04:03 - [MESSAGE][PASSED] - Switching the device to landscape mode successfully
+
+2021-09-10 16:04:03 - [TEST_STEP][PASSED] - try: null
+
+2021-09-10 16:04:03 - [TEST_STEP][PASSED] - verifyIsLandscape(STOP_ON_FAILURE): Device is in landspace mode
+
+2021-09-10 16:04:03 - [MESSAGE][PASSED] - Device is in landspace mode
+
+2021-09-10 16:04:03 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 16:04:03 - [TEST_STEP][PASSED] - switchToPortrait(): Switching the device to portrait mode successfully
+
+2021-09-10 16:04:04 - [MESSAGE][PASSED] - Switching the device to portrait mode successfully
+
+2021-09-10 16:04:04 - [TEST_STEP][FAILED] - try: Unable to verify if device is in landspace mode (Root cause: com.kms.katalon.core.exception.StepFailedException: Device is NOT in landspace mode
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword$_verifyIsLandscape_closure1.doCall(VerifyIsLandscapeKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword$_verifyIsLandscape_closure1.call(VerifyIsLandscapeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword.verifyIsLandscape(VerifyIsLandscapeKeyword.groovy:67)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword.execute(VerifyIsLandscapeKeyword.groovy:62)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyIsLandscape(MobileBuiltInKeywords.groovy:1661)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyIsLandscape$28.call(Unknown Source)
+	at Verify is landscape.run(Verify is landscape:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:04:04 - [TEST_STEP][FAILED] - verifyIsLandscape(STOP_ON_FAILURE): Unable to verify if device is in landspace mode (Root cause: com.kms.katalon.core.exception.StepFailedException: Device is NOT in landspace mode
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword$_verifyIsLandscape_closure1.doCall(VerifyIsLandscapeKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword$_verifyIsLandscape_closure1.call(VerifyIsLandscapeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword.verifyIsLandscape(VerifyIsLandscapeKeyword.groovy:67)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword.execute(VerifyIsLandscapeKeyword.groovy:62)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyIsLandscape(MobileBuiltInKeywords.groovy:1661)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyIsLandscape$28.call(Unknown Source)
+	at Verify is landscape.run(Verify is landscape:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:04:04 - [MESSAGE][FAILED] - Device is NOT in landspace mode
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264644608.png]]
+
+2021-09-10 16:04:05 - [MESSAGE][FAILED] - Unable to verify if device is in landspace mode (Root cause: com.kms.katalon.core.exception.StepFailedException: Device is NOT in landspace mode
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword$_verifyIsLandscape_closure1.doCall(VerifyIsLandscapeKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword$_verifyIsLandscape_closure1.call(VerifyIsLandscapeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword.verifyIsLandscape(VerifyIsLandscapeKeyword.groovy:67)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyIsLandscapeKeyword.execute(VerifyIsLandscapeKeyword.groovy:62)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyIsLandscape(MobileBuiltInKeywords.groovy:1661)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyIsLandscape$28.call(Unknown Source)
+	at Verify is landscape.run(Verify is landscape:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264644934.png]]
+
+2021-09-10 16:04:05 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 16:04:05 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 16:04:05 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:04:05 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:04:05 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:04:10 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Start Application - start internal" time="25.656" classname="Test Cases/All test cases/Start Application - start internal" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:04:10 - [TEST_CASE][PASSED] - Test Cases/All test cases/Start Application - start internal: Test Cases/All test cases/Start Application - start internal
+
+2021-09-10 16:04:11 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2021-09-10 16:04:12 - [MESSAGE][PASSED] - Close app successfully
+
+2021-09-10 16:04:12 - [TEST_STEP][PASSED] - katalon.common.StartApps.startMobileApps(): katalon.common.StartApps.startMobileApps is PASSED
+
+2021-09-10 16:04:12 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 52469
+
+2021-09-10 16:04:15 - [MESSAGE][INFO] - Appium server started on port 52,473
+
+2021-09-10 16:04:28 - [MESSAGE][PASSED] - Started app at: '/Users/loantran/Documents/mobile-samples-iOS/Apps/iOS/iPhone/DragAndDrop-simulator-iPhone12-ios14.5.app'
+
+2021-09-10 16:04:28 - [MESSAGE][PASSED] - katalon.common.StartApps.startMobileApps is PASSED
+
+2021-09-10 16:04:28 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"), 0): Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+
+2021-09-10 16:04:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:04:30 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' is exist
+
+2021-09-10 16:04:30 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:04:30 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:04:30 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:04:36 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get device manufacturer" time="6.073" classname="Test Cases/All test cases/Get device manufacturer" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:04:36 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get device manufacturer: Test Cases/All test cases/Get device manufacturer
+
+2021-09-10 16:04:37 - [TEST_STEP][PASSED] - deviceManufacturer = getDeviceManufacturer(): Device manufacturer is: 'Apple'
+
+2021-09-10 16:04:37 - [MESSAGE][PASSED] - Device manufacturer is: 'Apple'
+
+2021-09-10 16:04:37 - [TEST_STEP][PASSED] - verifyMatch(deviceManufacturer, "Apple", false): Actual text 'Apple' and expected text 'Apple' are matched 
+
+2021-09-10 16:04:37 - [MESSAGE][PASSED] - Actual text 'Apple' and expected text 'Apple' are matched 
+
+2021-09-10 16:04:37 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:04:37 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:04:37 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:04:42 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Tap" time="11.369" classname="Test Cases/All test cases/Tap" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:04:42 - [TEST_CASE][PASSED] - Test Cases/All test cases/Tap: Test Cases/All test cases/Tap
+
+2021-09-10 16:04:43 - [TEST_STEP][PASSED] - tap(findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"), 0): Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:04:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:04:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:04:44 - [TEST_STEP][PASSED] - lblAddItem = findTestObject("DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item"): null
+
+2021-09-10 16:04:45 - [TEST_STEP][PASSED] - verifyElementExist(lblAddItem, 0): Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' is exist
+
+2021-09-10 16:04:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:04:48 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Tap/XCUIElementTypeStaticText - Add Item' is exist
+
+2021-09-10 16:04:48 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:04:48 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:04:48 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:04:54 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Set text" time="11.745" classname="Test Cases/All test cases/Set text" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:04:54 - [TEST_CASE][PASSED] - Test Cases/All test cases/Set text: Test Cases/All test cases/Set text
+
+2021-09-10 16:04:54 - [TEST_STEP][PASSED] - tap(findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"), 0): Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:04:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:04:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add'
+
+2021-09-10 16:04:56 - [TEST_STEP][PASSED] - txtEmptyElem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeTextField"): null
+
+2021-09-10 16:04:56 - [TEST_STEP][PASSED] - inputText = "Katalon QA Team": null
+
+2021-09-10 16:04:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("_common/functionTC_setText"), ["object":txtEmptyElem, "text":inputText]): Call Test Case 'Test Cases/_common/functionTC_setText' successfully
+
+2021-09-10 16:04:56 - [TEST_CASE][PASSED] - Test Cases/_common/functionTC_setText: Test Cases/_common/functionTC_setText
+
+2021-09-10 16:04:56 - [TEST_STEP][PASSED] - setText(object, text, 0): Text 'Katalon QA Team' has been set to element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField'
+
+2021-09-10 16:04:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:04:58 - [MESSAGE][PASSED] - Text 'Katalon QA Team' has been set to element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField'
+
+2021-09-10 16:04:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/_common/functionTC_setText' successfully
+
+2021-09-10 16:04:58 - [TEST_STEP][PASSED] - txtElem = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text", ["dynamicText":inputText]): null
+
+2021-09-10 16:04:58 - [TEST_STEP][PASSED] - verifyElementExist(txtElem, 0): Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' is exist
+
+2021-09-10 16:04:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:05:00 - [MESSAGE][PASSED] - Element 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeTextField - element after inputting text' is exist
+
+2021-09-10 16:05:00 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:05:00 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:05:00 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:05:05 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Get element height" time="6.684" classname="Test Cases/All test cases/Get element height" status="PASSED">
+         <system-out><![CDATA[2021-09-10 16:05:05 - [TEST_CASE][PASSED] - Test Cases/All test cases/Get element height: Test Cases/All test cases/Get element height
+
+2021-09-10 16:05:06 - [TEST_STEP][PASSED] - elemHeight = getElementHeight(findTestObject("DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration"), 0): Object 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' has height: '44'
+
+2021-09-10 16:05:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 16:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/DragAndDropApps/Drad and drop/XCUIElementTypeStaticText - Database Migration' has height: '44'
+
+2021-09-10 16:05:07 - [TEST_STEP][PASSED] - verifyMatch(elemHeight, "44", false): Actual text '44' and expected text '44' are matched 
+
+2021-09-10 16:05:07 - [MESSAGE][PASSED] - Actual text '44' and expected text '44' are matched 
+
+2021-09-10 16:05:07 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:05:07 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:05:07 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:05:12 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify element not have attribute" time="8.624" classname="Test Cases/All test cases/Verify element not have attribute" status="FAILED">
+         <failure type="FAILED" message="Test Cases/All test cases/Verify element not have attribute FAILED.
+Reason:
+Assertion failed: 
+
+assert false
+
+
+	at Verify element not have attribute.run(Verify element not have attribute:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+"/>
+         <system-out><![CDATA[2021-09-10 16:05:12 - [TEST_CASE][FAILED] - Test Cases/All test cases/Verify element not have attribute: Test Cases/All test cases/Verify element not have attribute FAILED.
+Reason:
+Assertion failed: 
+
+assert false
+
+
+	at Verify element not have attribute.run(Verify element not have attribute:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+
+
+2021-09-10 16:05:12 - [TEST_STEP][PASSED] - btnAdd = findTestObject("DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add"): null
+
+2021-09-10 16:05:12 - [TEST_STEP][FAILED] - try: Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' doesnt have attribute '{1}' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'enabled'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.doCall(VerifyElementNotHasAttributeKeyword.groovy:88)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.call(VerifyElementNotHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.verifyElementNotHasAttribute(VerifyElementNotHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.execute(VerifyElementNotHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotHasAttribute(MobileBuiltInKeywords.groovy:2007)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotHasAttribute$32.call(Unknown Source)
+	at Verify element not have attribute.run(Verify element not have attribute:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:05:12 - [TEST_STEP][FAILED] - verifyElementNotHasAttribute(btnAdd, "enabled", 5): Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' doesnt have attribute '{1}' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'enabled'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.doCall(VerifyElementNotHasAttributeKeyword.groovy:88)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.call(VerifyElementNotHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.verifyElementNotHasAttribute(VerifyElementNotHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.execute(VerifyElementNotHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotHasAttribute(MobileBuiltInKeywords.groovy:2007)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotHasAttribute$32.call(Unknown Source)
+	at Verify element not have attribute.run(Verify element not have attribute:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:05:14 - [MESSAGE][FAILED] - Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'enabled'
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264714204.png]]
+
+2021-09-10 16:05:14 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' doesnt have attribute '{1}' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' has attribute 'enabled'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.doCall(VerifyElementNotHasAttributeKeyword.groovy:88)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.call(VerifyElementNotHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.verifyElementNotHasAttribute(VerifyElementNotHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.execute(VerifyElementNotHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotHasAttribute(MobileBuiltInKeywords.groovy:2007)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotHasAttribute$32.call(Unknown Source)
+	at Verify element not have attribute.run(Verify element not have attribute:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264714488.png]]
+
+2021-09-10 16:05:14 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 16:05:14 - [TEST_STEP][PASSED] - assert true: null
+
+2021-09-10 16:05:14 - [TEST_STEP][FAILED] - try: Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' doesnt have attribute '{1}' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The attribute 'package' is unknown. Valid attribute names are: (
+    UID,
+    accessibilityContainer,
+    accessible,
+    enabled,
+    frame,
+    index,
+    label,
+    name,
+    rect,
+    selected,
+    type,
+    value,
+    visible,
+    wdAccessibilityContainer,
+    wdAccessible,
+    wdEnabled,
+    wdFrame,
+    wdIndex,
+    wdLabel,
+    wdName,
+    wdRect,
+    wdSelected,
+    wdType,
+    wdUID,
+    wdValue,
+    wdVisible
+)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FVFXH243HV2H.local', ip: '192.168.1.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/loantran/Documents/m..., automationName: XCUITest, browserName: , chromedriverPort: 52474, databaseEnabled: false, deviceName: iPhone 12, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 1800, noReset: true, platform: IOS, platformName: iOS, platformVersion: 14.5, realDeviceLogger: /Users/loantran/Documents/K..., takesScreenshot: true, udid: B78A79C3-87FF-4780-856F-33B..., waitForAppScript: true;, wdaLocalPort: 52468, webStorageEnabled: false}
+Session ID: 08868851-ca1d-4f63-8818-6571927ac985
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileCommonHelper.getAttributeValue(MobileCommonHelper.java:145)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.doCall(VerifyElementNotHasAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.call(VerifyElementNotHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.verifyElementNotHasAttribute(VerifyElementNotHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.execute(VerifyElementNotHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotHasAttribute(MobileBuiltInKeywords.groovy:2007)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotHasAttribute$32.call(Unknown Source)
+	at Verify element not have attribute.run(Verify element not have attribute:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:05:14 - [TEST_STEP][FAILED] - verifyElementNotHasAttribute(btnAdd, "package", 10): Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' doesnt have attribute '{1}' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The attribute 'package' is unknown. Valid attribute names are: (
+    UID,
+    accessibilityContainer,
+    accessible,
+    enabled,
+    frame,
+    index,
+    label,
+    name,
+    rect,
+    selected,
+    type,
+    value,
+    visible,
+    wdAccessibilityContainer,
+    wdAccessible,
+    wdEnabled,
+    wdFrame,
+    wdIndex,
+    wdLabel,
+    wdName,
+    wdRect,
+    wdSelected,
+    wdType,
+    wdUID,
+    wdValue,
+    wdVisible
+)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FVFXH243HV2H.local', ip: '192.168.1.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/loantran/Documents/m..., automationName: XCUITest, browserName: , chromedriverPort: 52474, databaseEnabled: false, deviceName: iPhone 12, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 1800, noReset: true, platform: IOS, platformName: iOS, platformVersion: 14.5, realDeviceLogger: /Users/loantran/Documents/K..., takesScreenshot: true, udid: B78A79C3-87FF-4780-856F-33B..., waitForAppScript: true;, wdaLocalPort: 52468, webStorageEnabled: false}
+Session ID: 08868851-ca1d-4f63-8818-6571927ac985
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileCommonHelper.getAttributeValue(MobileCommonHelper.java:145)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.doCall(VerifyElementNotHasAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.call(VerifyElementNotHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.verifyElementNotHasAttribute(VerifyElementNotHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.execute(VerifyElementNotHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotHasAttribute(MobileBuiltInKeywords.groovy:2007)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotHasAttribute$32.call(Unknown Source)
+	at Verify element not have attribute.run(Verify element not have attribute:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+
+2021-09-10 16:05:16 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/DragAndDropApps/Clear text/XCUIElementTypeStaticText - Add' doesnt have attribute '{1}' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The attribute 'package' is unknown. Valid attribute names are: (
+    UID,
+    accessibilityContainer,
+    accessible,
+    enabled,
+    frame,
+    index,
+    label,
+    name,
+    rect,
+    selected,
+    type,
+    value,
+    visible,
+    wdAccessibilityContainer,
+    wdAccessible,
+    wdEnabled,
+    wdFrame,
+    wdIndex,
+    wdLabel,
+    wdName,
+    wdRect,
+    wdSelected,
+    wdType,
+    wdUID,
+    wdValue,
+    wdVisible
+)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FVFXH243HV2H.local', ip: '192.168.1.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/loantran/Documents/m..., automationName: XCUITest, browserName: , chromedriverPort: 52474, databaseEnabled: false, deviceName: iPhone 12, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 1800, noReset: true, platform: IOS, platformName: iOS, platformVersion: 14.5, realDeviceLogger: /Users/loantran/Documents/K..., takesScreenshot: true, udid: B78A79C3-87FF-4780-856F-33B..., waitForAppScript: true;, wdaLocalPort: 52468, webStorageEnabled: false}
+Session ID: 08868851-ca1d-4f63-8818-6571927ac985
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileCommonHelper.getAttributeValue(MobileCommonHelper.java:145)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.doCall(VerifyElementNotHasAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword$_verifyElementNotHasAttribute_closure1.call(VerifyElementNotHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.verifyElementNotHasAttribute(VerifyElementNotHasAttributeKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotHasAttributeKeyword.execute(VerifyElementNotHasAttributeKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotHasAttribute(MobileBuiltInKeywords.groovy:2007)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotHasAttribute$32.call(Unknown Source)
+	at Verify element not have attribute.run(Verify element not have attribute:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)
+)
+[[ATTACHMENT|/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_155713/Simulators/DragAndDrop application/20210910_155713/1631264715944.png]]
+
+2021-09-10 16:05:16 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-09-10 16:05:16 - [TEST_STEP][PASSED] - assert false: null
+
+2021-09-10 16:05:16 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 16:05:16 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 16:05:16 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 16:05:21 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-09-10 16:05:12 - [TEST_CASE][FAILED] - Test Cases/All test cases/Verify element not have attribute: Test Cases/All test cases/Verify element not have attribute FAILED.
+Reason:
+Assertion failed: 
+
+assert false
+
+
+	at Verify element not have attribute.run(Verify element not have attribute:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-10 15:57:17 - [TEST_SUITE][FAILED] - DragAndDrop application: Test Cases/All test cases/Verify element not have attribute FAILED.
+Reason:
+Assertion failed: 
+
+assert false
+
+
+	at Verify element not have attribute.run(Verify element not have attribute:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-09-10 15:57:17 - [TEST_SUITE][FAILED] - DragAndDrop application: Test Cases/All test cases/Verify element not have attribute FAILED.
+Reason:
+Assertion failed: 
+
+assert false
+
+
+	at Verify element not have attribute.run(Verify element not have attribute:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1631264233969.run(TempTestSuite1631264233969.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

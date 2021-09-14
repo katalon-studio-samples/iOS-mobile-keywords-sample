@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GradeCalc application" time="197.075" tests="8" failures="0" errors="0">
+   <testsuite name="GradeCalc application" tests="8" failures="0" errors="0" time="197.075" skipped="0" timestamp="2021-09-10 15:19:29" hostname="loantran - localhost" id="Test Suites/Simulators/GradeCalc application">
+      <properties>
+         <property name="deviceName" value="iPad (8th generation)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_151925/Simulators/GradeCalc application/20210910_151925"/>
+         <property name="logFiles" value="/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_151925/Simulators/GradeCalc application/20210910_151925/execution0.log, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_151925/Simulators/GradeCalc application/20210910_151925/appium.log, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_151925/Simulators/GradeCalc application/20210910_151925/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="loantran - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPad (8th generation)"/>
+         <property name="deviceOSVersion" value="14.5"/>
+      </properties>
+      <testcase name="Test Cases/All test cases/Tap and hold - GradCalc" time="10.755" classname="Test Cases/All test cases/Tap and hold - GradCalc" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:21:08 - [TEST_CASE][PASSED] - Test Cases/All test cases/Tap and hold - GradCalc: Test Cases/All test cases/Tap and hold - GradCalc
+
+2021-09-10 15:21:08 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeButton - add"), 0, 0): Tapped and held on element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' with duration (default)
+
+2021-09-10 15:21:08 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2021-09-10 15:21:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:10 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' with duration (default)
+
+2021-09-10 15:21:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeButton - Save"), 0): Element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - Save' is exist
+
+2021-09-10 15:21:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:13 - [MESSAGE][PASSED] - Element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - Save' is exist
+
+2021-09-10 15:21:13 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:21:13 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:21:13 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:21:19 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Set encrypted text - GradeCalc" time="14.837" classname="Test Cases/All test cases/Set encrypted text - GradeCalc" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:21:19 - [TEST_CASE][PASSED] - Test Cases/All test cases/Set encrypted text - GradeCalc: Test Cases/All test cases/Set encrypted text - GradeCalc
+
+2021-09-10 15:21:19 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeButton - add"), 0, 0): Tapped and held on element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' with duration (default)
+
+2021-09-10 15:21:19 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2021-09-10 15:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:21 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' with duration (default)
+
+2021-09-10 15:21:21 - [TEST_STEP][PASSED] - text = "QA katalon": null
+
+2021-09-10 15:21:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title"), "D4BYJaDQ12bjjzKZGpBQ2w==", 0): Encrypted text 'D4BYJaDQ12bjjzKZGpBQ2w==' has been set to element 'Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title'
+
+2021-09-10 15:21:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:26 - [MESSAGE][PASSED] - Encrypted text 'D4BYJaDQ12bjjzKZGpBQ2w==' has been set to element 'Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title'
+
+2021-09-10 15:21:26 - [TEST_STEP][PASSED] - expectedText = getText(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title"), 0): Text of element 'Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title' is: 'QA katalon'
+
+2021-09-10 15:21:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:28 - [MESSAGE][PASSED] - Text of element 'Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title' is: 'QA katalon'
+
+2021-09-10 15:21:28 - [TEST_STEP][PASSED] - verifyMatch(expectedText, text, false): Actual text 'QA katalon' and expected text 'QA katalon' are matched 
+
+2021-09-10 15:21:28 - [MESSAGE][PASSED] - Actual text 'QA katalon' and expected text 'QA katalon' are matched 
+
+2021-09-10 15:21:28 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:21:28 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:21:28 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:21:33 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Hide keyboard - GradeCalc" time="17.928" classname="Test Cases/All test cases/Hide keyboard - GradeCalc" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:21:33 - [TEST_CASE][PASSED] - Test Cases/All test cases/Hide keyboard - GradeCalc: Test Cases/All test cases/Hide keyboard - GradeCalc
+
+2021-09-10 15:21:34 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeButton - add"), 0, 0): Tapped and held on element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' with duration (default)
+
+2021-09-10 15:21:34 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2021-09-10 15:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:36 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' with duration (default)
+
+2021-09-10 15:21:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title"), 0): Tapped on element 'Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title'
+
+2021-09-10 15:21:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CradeCalcApps/XCUIElementTypeTextField - Title'
+
+2021-09-10 15:21:38 - [TEST_STEP][PASSED] - if (isIpadSimulator): Element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - Save' is visible
+
+2021-09-10 15:21:38 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2021-09-10 15:21:42 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2021-09-10 15:21:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeButton - Save"), 0): Element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - Save' is visible
+
+2021-09-10 15:21:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:46 - [MESSAGE][PASSED] - Element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - Save' is visible
+
+2021-09-10 15:21:46 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:21:46 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:21:46 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:21:51 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Tap and hold at position - GradCalc" time="13.955" classname="Test Cases/All test cases/Tap and hold at position - GradCalc" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:21:51 - [TEST_CASE][PASSED] - Test Cases/All test cases/Tap and hold at position - GradCalc: Test Cases/All test cases/Tap and hold at position - GradCalc
+
+2021-09-10 15:21:52 - [TEST_STEP][PASSED] - elem = findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeButton - add"): null
+
+2021-09-10 15:21:52 - [TEST_STEP][PASSED] - x = getElementLeftPosition(elem, 0) + 30: Object 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' has left position '723'
+
+2021-09-10 15:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:54 - [MESSAGE][PASSED] - Object 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' has left position '723'
+
+2021-09-10 15:21:54 - [TEST_STEP][PASSED] - y = getElementTopPosition(elem, 0) + 30: Object 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' has top position '1,006'
+
+2021-09-10 15:21:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/CradeCalcApps/XCUIElementTypeButton - add' has top position '1,006'
+
+2021-09-10 15:21:55 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(x, y, 2): Tapped and held at [753, 1,036] with duration 2
+
+2021-09-10 15:21:57 - [MESSAGE][PASSED] - Tapped and held at [753, 1,036] with duration 2
+
+2021-09-10 15:21:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeButton - Save"), 3): Element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - Save' is exist
+
+2021-09-10 15:22:00 - [MESSAGE][PASSED] - Element 'Object Repository/CradeCalcApps/XCUIElementTypeButton - Save' is exist
+
+2021-09-10 15:22:00 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:22:00 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:22:00 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:22:05 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Open notification - GradeCalc" time="9.974" classname="Test Cases/All test cases/Open notification - GradeCalc" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:22:05 - [TEST_CASE][PASSED] - Test Cases/All test cases/Open notification - GradeCalc: Test Cases/All test cases/Open notification - GradeCalc
+
+2021-09-10 15:22:06 - [TEST_STEP][PASSED] - openNotifications(): Open notifications successfully
+
+2021-09-10 15:22:07 - [MESSAGE][PASSED] - Open notifications successfully
+
+2021-09-10 15:22:07 - [TEST_STEP][PASSED] - if (!(isSimulator)): null
+
+2021-09-10 15:22:07 - [TEST_STEP][PASSED] - closeNotifications(): Notification closed.
+
+2021-09-10 15:22:08 - [MESSAGE][PASSED] - Notification closed.
+
+2021-09-10 15:22:08 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:22:08 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:22:08 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:22:15 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Close notification - GradeCalc" time="8.764" classname="Test Cases/All test cases/Close notification - GradeCalc" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:22:15 - [TEST_CASE][PASSED] - Test Cases/All test cases/Close notification - GradeCalc: Test Cases/All test cases/Close notification - GradeCalc
+
+2021-09-10 15:22:16 - [TEST_STEP][PASSED] - openNotifications(): Open notifications successfully
+
+2021-09-10 15:22:17 - [MESSAGE][PASSED] - Open notifications successfully
+
+2021-09-10 15:22:17 - [TEST_STEP][PASSED] - if (!(isIpadSimulator)): null
+
+2021-09-10 15:22:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/CradeCalcApps/XCUIElementTypeStaticText - Your GPA"), 3): Element 'Object Repository/CradeCalcApps/XCUIElementTypeStaticText - Your GPA' is visible
+
+2021-09-10 15:22:19 - [MESSAGE][PASSED] - Element 'Object Repository/CradeCalcApps/XCUIElementTypeStaticText - Your GPA' is visible
+
+2021-09-10 15:22:19 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:22:19 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:22:19 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:22:24 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Scroll to text - GradeCalc" time="11.907" classname="Test Cases/All test cases/Scroll to text - GradeCalc" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:22:24 - [TEST_CASE][PASSED] - Test Cases/All test cases/Scroll to text - GradeCalc: Test Cases/All test cases/Scroll to text - GradeCalc
+
+2021-09-10 15:22:24 - [TEST_STEP][PASSED] - scrollToText("Test 6"): Scrolling to text 'Test 6' successfully
+
+2021-09-10 15:22:30 - [MESSAGE][PASSED] - Scrolling to text 'Test 6' successfully
+
+2021-09-10 15:22:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/CradeCalcApps/scroll to text/XCUIElementTypeButton - Test 6, 1.00"), 0): Element 'Object Repository/CradeCalcApps/scroll to text/XCUIElementTypeButton - Test 6, 1.00' is visible
+
+2021-09-10 15:22:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:22:31 - [MESSAGE][PASSED] - Element 'Object Repository/CradeCalcApps/scroll to text/XCUIElementTypeButton - Test 6, 1.00' is visible
+
+2021-09-10 15:22:31 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:22:31 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:22:31 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:22:36 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Swipe - GradeCalc" time="8.661" classname="Test Cases/All test cases/Swipe - GradeCalc" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:22:36 - [TEST_CASE][PASSED] - Test Cases/All test cases/Swipe - GradeCalc: Test Cases/All test cases/Swipe - GradeCalc
+
+2021-09-10 15:22:36 - [TEST_STEP][PASSED] - swipe(150, 400, 50, 400): Swiped from 150,400 to 50,400
+
+2021-09-10 15:22:38 - [MESSAGE][PASSED] - Swiped from 150,400 to 50,400
+
+2021-09-10 15:22:38 - [TEST_STEP][PASSED] - txtDelete = getText(findTestObject("Object Repository/CradeCalcApps/swipe/XCUIElementTypeStaticText - Delete"), 0): Text of element 'Object Repository/CradeCalcApps/swipe/XCUIElementTypeStaticText - Delete' is: 'Delete'
+
+2021-09-10 15:22:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:22:39 - [MESSAGE][PASSED] - Text of element 'Object Repository/CradeCalcApps/swipe/XCUIElementTypeStaticText - Delete' is: 'Delete'
+
+2021-09-10 15:22:39 - [TEST_STEP][PASSED] - verifyMatch(txtDelete, "Delete", false): Actual text 'Delete' and expected text 'Delete' are matched 
+
+2021-09-10 15:22:39 - [MESSAGE][PASSED] - Actual text 'Delete' and expected text 'Delete' are matched 
+
+2021-09-10 15:22:39 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:22:39 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:22:39 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:22:45 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-10 15:19:29 - [TEST_SUITE][PASSED] - GradeCalc application: Test Cases/All test cases/Swipe - GradeCalc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

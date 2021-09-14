@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Verify element not visible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d16cbf12-f68a-44e9-a00f-6a501ee40786</testCaseGuid>
+</TestCaseEntity>

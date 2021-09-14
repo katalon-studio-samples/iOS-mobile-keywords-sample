@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Press Home</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e47e5bc-b1c6-4cc7-80e0-d08d38d4bfcc</testCaseGuid>
+</TestCaseEntity>

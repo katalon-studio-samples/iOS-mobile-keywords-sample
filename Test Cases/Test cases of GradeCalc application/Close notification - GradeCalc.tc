@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of GrageCalc apps: https://github.com/marlon360/grade-calc</description>
+   <name>Close notification - GradeCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0411119-4b8a-4645-b777-2c4ab94ea680</testCaseGuid>
+</TestCaseEntity>

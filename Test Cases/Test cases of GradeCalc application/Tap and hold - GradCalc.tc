@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of GradeCalc apps: https://github.com/marlon360/grade-calc</description>
+   <name>Tap and hold - GradCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb22e47f-9152-4f01-a417-78b3957dd460</testCaseGuid>
+</TestCaseEntity>

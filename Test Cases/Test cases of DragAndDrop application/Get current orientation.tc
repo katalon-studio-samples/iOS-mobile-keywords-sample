@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Get current orientation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3fb1e65-eee0-4b2b-94f4-375be30fd210</testCaseGuid>
+</TestCaseEntity>

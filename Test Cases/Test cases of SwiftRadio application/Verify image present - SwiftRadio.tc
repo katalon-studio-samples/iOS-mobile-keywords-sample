@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://github.com/analogcode/Swift-Radio-Pro</description>
+   <name>Verify image present - SwiftRadio</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b855a56e-82c9-4aef-9365-fce16670b8ed</testCaseGuid>
+   <variable>
+      <defaultValue>'/Screenshots/Photo For Keyword Testing/TheRock.png'</defaultValue>
+      <description></description>
+      <id>49a1c638-be5c-416f-b481-a3f61253f912</id>
+      <masked>false</masked>
+      <name>imageShortPath</name>
+   </variable>
+</TestCaseEntity>

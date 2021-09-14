@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of GradeCalc apps: https://github.com/marlon360/grade-calc</description>
+   <name>Open notification - GradeCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee4f9786-b1da-4676-8ef0-0654f18bbb6f</testCaseGuid>
+</TestCaseEntity>

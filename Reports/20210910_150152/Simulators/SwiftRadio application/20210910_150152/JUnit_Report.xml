@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwiftRadio application" time="162.47" tests="8" failures="0" skips="0" errors="0">
+   <testsuite name="SwiftRadio application" tests="8" failures="0" errors="0" time="162.47" skips="0" timestamp="2021-09-10 15:01:55" hostname="loantran - localhost" id="Test Suites/Simulators/SwiftRadio application">
+      <properties>
+         <property name="deviceName" value="iPhone 12"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_150152/Simulators/SwiftRadio application/20210910_150152"/>
+         <property name="logFiles" value="/Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_150152/Simulators/SwiftRadio application/20210910_150152/execution0.log, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_150152/Simulators/SwiftRadio application/20210910_150152/appium.log, /Users/loantran/Documents/mobile-samples-iOS/Reports/20210910_150152/Simulators/SwiftRadio application/20210910_150152/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="loantran - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 12"/>
+         <property name="deviceOSVersion" value="14.5"/>
+      </properties>
+      <testcase name="Test Cases/All test cases/Wait for element present - SwiftRadio" time="84.881" classname="Test Cases/All test cases/Wait for element present - SwiftRadio" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:02:20 - [TEST_CASE][PASSED] - Test Cases/All test cases/Wait for element present - SwiftRadio: Test Cases/All test cases/Wait for element present - SwiftRadio
+
+2021-09-10 15:02:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190"), 0): Tapped on element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190'
+
+2021-09-10 15:02:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:02:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190'
+
+2021-09-10 15:02:22 - [TEST_STEP][PASSED] - elem = findTestObject("Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Error Playing"): null
+
+2021-09-10 15:02:22 - [TEST_STEP][PASSED] - waitForElementPresent(elem, 120): Element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Error Playing' is present
+
+2021-09-10 15:03:39 - [MESSAGE][PASSED] - Element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Error Playing' is present
+
+2021-09-10 15:03:39 - [TEST_STEP][PASSED] - verifyElementVisible(elem, 0): Element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Error Playing' is visible
+
+2021-09-10 15:03:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:03:39 - [MESSAGE][PASSED] - Element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Error Playing' is visible
+
+2021-09-10 15:03:39 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:03:39 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:03:39 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:03:45 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Tap on image - SwiftRadio" time="9.711" classname="Test Cases/All test cases/Tap on image - SwiftRadio" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:03:45 - [TEST_CASE][PASSED] - Test Cases/All test cases/Tap on image - SwiftRadio: Test Cases/All test cases/Tap on image - SwiftRadio
+
+2021-09-10 15:03:46 - [TEST_STEP][PASSED] - imageFullPath = currentProjDir + imageShortPath: null
+
+2021-09-10 15:03:46 - [TEST_STEP][PASSED] - settings = getDriver(): null
+
+2021-09-10 15:03:46 - [TEST_STEP][PASSED] - settings.setSetting(IMAGE_MATCH_THRESHOLD, 0.2): null
+
+2021-09-10 15:03:46 - [TEST_STEP][PASSED] - tapOnImage(imageFullPath): Tap on image '/Users/loantran/Documents/mobile-samples-iOS/Screenshots/Photo For Keyword Testing/TheRock.png' at location (0, 157) successfully
+
+2021-09-10 15:03:48 - [MESSAGE][INFO] - Found 1 element(s) on screen
+
+2021-09-10 15:03:48 - [MESSAGE][INFO] - Tap on image at location (0, 157)
+
+2021-09-10 15:03:48 - [MESSAGE][PASSED] - Tap on image '/Users/loantran/Documents/mobile-samples-iOS/Screenshots/Photo For Keyword Testing/TheRock.png' at location (0, 157) successfully
+
+2021-09-10 15:03:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("SwiftRadioApps/Tap on image/XCUIElementTypeButton - btn play"), 3): Element 'Object Repository/SwiftRadioApps/Tap on image/XCUIElementTypeButton - btn play' is exist
+
+2021-09-10 15:03:49 - [MESSAGE][PASSED] - Element 'Object Repository/SwiftRadioApps/Tap on image/XCUIElementTypeButton - btn play' is exist
+
+2021-09-10 15:03:49 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:03:49 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:03:49 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:03:55 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Wait for element not has attribute - SwiftRadio" time="8.668" classname="Test Cases/All test cases/Wait for element not has attribute - SwiftRadio" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:03:55 - [TEST_CASE][PASSED] - Test Cases/All test cases/Wait for element not has attribute - SwiftRadio: Test Cases/All test cases/Wait for element not has attribute - SwiftRadio
+
+2021-09-10 15:03:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190"), 0): Tapped on element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190'
+
+2021-09-10 15:03:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-09-10 15:03:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190'
+
+2021-09-10 15:03:57 - [TEST_STEP][PASSED] - elem = findTestObject("Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Error Playing"): null
+
+2021-09-10 15:03:57 - [TEST_STEP][PASSED] - Result = waitForElementNotHasAttribute(elem, "class", 20): Element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Error Playing' not found
+
+2021-09-10 15:03:58 - [MESSAGE][WARNING] - Element 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Error Playing' not found
+
+2021-09-10 15:03:58 - [TEST_STEP][PASSED] - verifyEqual(Result, false, STOP_ON_FAILURE): Actual object 'false' and expected object 'false' are equal
+
+2021-09-10 15:03:58 - [MESSAGE][PASSED] - Actual object 'false' and expected object 'false' are equal
+
+2021-09-10 15:03:58 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:03:58 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:03:58 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:04:04 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Wait for element has attribute - SwiftRadio" time="6.803" classname="Test Cases/All test cases/Wait for element has attribute - SwiftRadio" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:04:04 - [TEST_CASE][PASSED] - Test Cases/All test cases/Wait for element has attribute - SwiftRadio: Test Cases/All test cases/Wait for element has attribute - SwiftRadio
+
+2021-09-10 15:04:04 - [TEST_STEP][PASSED] - elem = findTestObject("Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190"): null
+
+2021-09-10 15:04:04 - [TEST_STEP][PASSED] - Result = waitForElementHasAttribute(elem, "name", 20): Object 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190' has attribute 'name'
+
+2021-09-10 15:04:05 - [MESSAGE][PASSED] - Object 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190' has attribute 'name'
+
+2021-09-10 15:04:05 - [TEST_STEP][PASSED] - verifyEqual(Result, true, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2021-09-10 15:04:05 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2021-09-10 15:04:05 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:04:05 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:04:05 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:04:10 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Wait for element attribute value - SwiftRadio" time="6.374" classname="Test Cases/All test cases/Wait for element attribute value - SwiftRadio" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:04:10 - [TEST_CASE][PASSED] - Test Cases/All test cases/Wait for element attribute value - SwiftRadio: Test Cases/All test cases/Wait for element attribute value - SwiftRadio
+
+2021-09-10 15:04:11 - [TEST_STEP][PASSED] - elem = findTestObject("Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190"): null
+
+2021-09-10 15:04:11 - [TEST_STEP][PASSED] - Result = waitForElementAttributeValue(elem, "name", "Radio 1190", 20): Object 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190' has attribute 'name' with value 'Radio 1190'
+
+2021-09-10 15:04:12 - [MESSAGE][PASSED] - Object 'Object Repository/SwiftRadioApps/Wait for element present/XCUIElementTypeStaticText - Radio 1190' has attribute 'name' with value 'Radio 1190'
+
+2021-09-10 15:04:12 - [TEST_STEP][PASSED] - verifyEqual(Result, true, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2021-09-10 15:04:12 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2021-09-10 15:04:12 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:04:12 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:04:12 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:04:17 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Verify image present - SwiftRadio" time="6.623" classname="Test Cases/All test cases/Verify image present - SwiftRadio" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:04:17 - [TEST_CASE][PASSED] - Test Cases/All test cases/Verify image present - SwiftRadio: Test Cases/All test cases/Verify image present - SwiftRadio
+
+2021-09-10 15:04:18 - [TEST_STEP][PASSED] - imageFullPath = currentProjDir + imageShortPath: null
+
+2021-09-10 15:04:18 - [TEST_STEP][PASSED] - settings = getDriver(): null
+
+2021-09-10 15:04:18 - [TEST_STEP][PASSED] - settings.setSetting(IMAGE_MATCH_THRESHOLD, 0.2): null
+
+2021-09-10 15:04:18 - [TEST_STEP][PASSED] - try: Image '/Users/loantran/Documents/mobile-samples-iOS/Screenshots/Photo For Keyword Testing/TheRock.png' presents on screen at location (0, 157)
+
+2021-09-10 15:04:18 - [TEST_STEP][PASSED] - verifyImagePresent(imageFullPath): Image '/Users/loantran/Documents/mobile-samples-iOS/Screenshots/Photo For Keyword Testing/TheRock.png' presents on screen at location (0, 157)
+
+2021-09-10 15:04:19 - [MESSAGE][PASSED] - Image '/Users/loantran/Documents/mobile-samples-iOS/Screenshots/Photo For Keyword Testing/TheRock.png' presents on screen at location (0, 157)
+
+2021-09-10 15:04:19 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:04:19 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:04:19 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:04:24 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Find image element - SwiftRadio" time="6.398" classname="Test Cases/All test cases/Find image element - SwiftRadio" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:04:24 - [TEST_CASE][PASSED] - Test Cases/All test cases/Find image element - SwiftRadio: Test Cases/All test cases/Find image element - SwiftRadio
+
+2021-09-10 15:04:24 - [TEST_STEP][PASSED] - imageFullPath = currentProjDir + imageShortPath: null
+
+2021-09-10 15:04:24 - [TEST_STEP][PASSED] - settings = getDriver(): null
+
+2021-09-10 15:04:24 - [TEST_STEP][PASSED] - settings.setSetting(IMAGE_MATCH_THRESHOLD, 0.2): null
+
+2021-09-10 15:04:24 - [TEST_STEP][PASSED] - elem = findImageElement(imageFullPath): Found image '/Users/loantran/Documents/mobile-samples-iOS/Screenshots/Photo For Keyword Testing/TheRock.png' on screen at location (0, 160)
+
+2021-09-10 15:04:25 - [MESSAGE][PASSED] - Found image '/Users/loantran/Documents/mobile-samples-iOS/Screenshots/Photo For Keyword Testing/TheRock.png' on screen at location (0, 160)
+
+2021-09-10 15:04:25 - [TEST_STEP][PASSED] - assertThat(elem).isNotNull(): null
+
+2021-09-10 15:04:25 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:04:25 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:04:25 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:04:30 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All test cases/Find image elements - SwiftRadio" time="6.362" classname="Test Cases/All test cases/Find image elements - SwiftRadio" status="PASSED">
+         <system-out><![CDATA[2021-09-10 15:04:30 - [TEST_CASE][PASSED] - Test Cases/All test cases/Find image elements - SwiftRadio: Test Cases/All test cases/Find image elements - SwiftRadio
+
+2021-09-10 15:04:30 - [TEST_STEP][PASSED] - imageFullPath = currentProjDir + imageShortPath: null
+
+2021-09-10 15:04:30 - [TEST_STEP][PASSED] - settings = getDriver(): null
+
+2021-09-10 15:04:30 - [TEST_STEP][PASSED] - settings.setSetting(IMAGE_MATCH_THRESHOLD, 0.2): null
+
+2021-09-10 15:04:30 - [TEST_STEP][PASSED] - elems = findImageElements(imageFullPath): Found 1 images on screen
+
+2021-09-10 15:04:31 - [MESSAGE][PASSED] - Found 1 images on screen
+
+2021-09-10 15:04:31 - [TEST_STEP][PASSED] - assertThat(elems).isNotNull(): null
+
+2021-09-10 15:04:31 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-09-10 15:04:31 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2021-09-10 15:04:31 - [TEST_STEP][PASSED] - driver.resetApp(): null
+
+2021-09-10 15:04:36 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-10 15:01:55 - [TEST_SUITE][PASSED] - SwiftRadio application: Test Cases/All test cases/Find image elements - SwiftRadio]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

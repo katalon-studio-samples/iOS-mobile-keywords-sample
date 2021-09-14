@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of GradeCalc apps: https://github.com/marlon360/grade-calc</description>
+   <name>Hide keyboard - GradeCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19b97025-111d-456d-b230-eb7e67522ab8</testCaseGuid>
+</TestCaseEntity>

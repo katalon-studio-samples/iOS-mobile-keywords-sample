@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of SwiftRadio apps: https://github.com/analogcode/Swift-Radio-Pro</description>
+   <name>Wait for element attribute value - SwiftRadio</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef4a1a88-d100-4c4c-b1ed-c8fc7377ee60</testCaseGuid>
+</TestCaseEntity>

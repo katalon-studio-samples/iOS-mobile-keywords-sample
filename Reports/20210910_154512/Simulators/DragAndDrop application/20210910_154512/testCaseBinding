@@ -1,0 +1,34 @@
+{"testCaseName":"Test Cases/All test cases/Start Exsting Application","testCaseId":"Test Cases/All test cases/Start Exsting Application"}
+{"testCaseName":"Test Cases/All test cases/Tap at position","testCaseId":"Test Cases/All test cases/Tap at position"}
+{"testCaseName":"Test Cases/All test cases/Get device OS","testCaseId":"Test Cases/All test cases/Get device OS"}
+{"testCaseName":"Test Cases/All test cases/Get device height","testCaseId":"Test Cases/All test cases/Get device height"}
+{"testCaseName":"Test Cases/All test cases/Get current orientation","testCaseId":"Test Cases/All test cases/Get current orientation"}
+{"testCaseName":"Test Cases/All test cases/Take screenshot","testCaseId":"Test Cases/All test cases/Take screenshot"}
+{"testCaseName":"Test Cases/All test cases/Verify element attribute","testCaseId":"Test Cases/All test cases/Verify element attribute"}
+{"testCaseName":"Test Cases/All test cases/Run iOS app in background and wait","testCaseId":"Test Cases/All test cases/Run iOS app in background and wait"}
+{"testCaseName":"Test Cases/All test cases/Get element left position","testCaseId":"Test Cases/All test cases/Get element left position"}
+{"testCaseName":"Test Cases/All test cases/Switch to portrait","testCaseId":"Test Cases/All test cases/Switch to portrait"}
+{"testCaseName":"Test Cases/All test cases/Verify is portrait","testCaseId":"Test Cases/All test cases/Verify is portrait"}
+{"testCaseName":"Test Cases/All test cases/Get attributes","testCaseId":"Test Cases/All test cases/Get attributes"}
+{"testCaseName":"Test Cases/All test cases/Press Home","testCaseId":"Test Cases/All test cases/Press Home"}
+{"testCaseName":"Test Cases/All test cases/Get device width","testCaseId":"Test Cases/All test cases/Get device width"}
+{"testCaseName":"Test Cases/All test cases/Verify element not exist","testCaseId":"Test Cases/All test cases/Verify element not exist"}
+{"testCaseName":"Test Cases/All test cases/Get element width","testCaseId":"Test Cases/All test cases/Get element width"}
+{"testCaseName":"Test Cases/All test cases/Verify element has attribute","testCaseId":"Test Cases/All test cases/Verify element has attribute"}
+{"testCaseName":"Test Cases/All test cases/Get element top position","testCaseId":"Test Cases/All test cases/Get element top position"}
+{"testCaseName":"Test Cases/All test cases/Get device OS Version","testCaseId":"Test Cases/All test cases/Get device OS Version"}
+{"testCaseName":"Test Cases/All test cases/Verify element exist","testCaseId":"Test Cases/All test cases/Verify element exist"}
+{"testCaseName":"Test Cases/All test cases/Verify element not visible","testCaseId":"Test Cases/All test cases/Verify element not visible"}
+{"testCaseName":"Test Cases/All test cases/Get text","testCaseId":"Test Cases/All test cases/Get text"}
+{"testCaseName":"Test Cases/All test cases/Clear text","testCaseId":"Test Cases/All test cases/Clear text"}
+{"testCaseName":"Test Cases/All test cases/Verify element visible","testCaseId":"Test Cases/All test cases/Verify element visible"}
+{"testCaseName":"Test Cases/All test cases/Send keys","testCaseId":"Test Cases/All test cases/Send keys"}
+{"testCaseName":"Test Cases/All test cases/Switch to landscape","testCaseId":"Test Cases/All test cases/Switch to landscape"}
+{"testCaseName":"Test Cases/All test cases/Verify is landscape","testCaseId":"Test Cases/All test cases/Verify is landscape"}
+{"testCaseName":"Test Cases/All test cases/Start Application - start internal","testCaseId":"Test Cases/All test cases/Start Application - start internal"}
+{"testCaseName":"Test Cases/All test cases/Get device manufacturer","testCaseId":"Test Cases/All test cases/Get device manufacturer"}
+{"testCaseName":"Test Cases/All test cases/Tap","testCaseId":"Test Cases/All test cases/Tap"}
+{"testCaseName":"Test Cases/All test cases/Set text","testCaseId":"Test Cases/All test cases/Set text"}
+{"testCaseName":"Test Cases/All test cases/Get element height","testCaseId":"Test Cases/All test cases/Get element height"}
+{"testCaseName":"Test Cases/All test cases/Verify element not have attribute","testCaseId":"Test Cases/All test cases/Verify element not have attribute"}
+{"testCaseName":"Test Cases/All test cases/Drag and drop","testCaseId":"Test Cases/All test cases/Drag and drop"}

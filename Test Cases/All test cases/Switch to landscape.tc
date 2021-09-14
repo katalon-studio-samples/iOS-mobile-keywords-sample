@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Source code of DragAndDrop apps: https://github.com/alfianlosari/KanbanDragDropiOS</description>
+   <name>Switch to landscape</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5ac485f-c014-4b89-9803-fd2f0e84d1fd</testCaseGuid>
+</TestCaseEntity>
